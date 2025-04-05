@@ -1,80 +1,94 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-    public float jumpHeight = 2f; // Á¡ÇÁ ³ôÀÌ
-    public float gravity = 10f; // Áß·Â °ª
-    public float speed = 5f; // ±âº» ÀÌµ¿ ¼Óµµ
-    public float RunSpeed = 2f; // ´Ş¸®±â ¼Óµµ ¹è¼ö
-    public float SitSpeed = 2.5f; // ¾ÉÀº »óÅÂ ÀÌµ¿ ¼Óµµ
-    public float mouseSpeed = 8f; // ¸¶¿ì½º È¸Àü ¼Óµµ
-    public float SitHeight = 1f; // ¾É¾ÒÀ» ¶§ ³ôÀÌ
-    private float originalHeight; // ¿ø·¡ ³ôÀÌ ÀúÀå
+    public float jumpHeight = 2f; // ì í”„ ë†’ì´
+    public float gravity = 10f; // ì¤‘ë ¥ ê°’
+    public float speed = 5f; // ê¸°ë³¸ ì´ë™ ì†ë„
+    public float RunSpeed = 2f; // ë‹¬ë¦¬ê¸° ì†ë„ ë°°ìˆ˜
+    public float SitSpeed = 2.5f; // ì•‰ì€ ìƒíƒœ ì´ë™ ì†ë„
+    public float mouseSpeed = 8f; // ë§ˆìš°ìŠ¤ íšŒì „ ì†ë„
+    public float SitHeight = 1f; // ì•‰ì•˜ì„ ë•Œ ë†’ì´
+    private float originalHeight; // ì›ë˜ ë†’ì´ ì €ì¥
 
     private CharacterController controller;
     private Vector3 velocity;
     private bool isGrounded;
     private float mouseX;
 
+    private bool canMove = true;
+
     void Start()
     {
         controller = GetComponent<CharacterController>();
-        originalHeight = controller.height; // ÃÊ±â ³ôÀÌ ÀúÀå
+        originalHeight = controller.height;
     }
 
     void Update()
     {
+        if (!canMove)
+        {
+            velocity = Vector3.zero;
+            return;
+        }
+
         isGrounded = controller.isGrounded;
 
         if (isGrounded && velocity.y < 0)
         {
-            velocity.y = -2f; // ¹Ù´Ú¿¡ ºÙ¾î ÀÖµµ·Ï ¼³Á¤
+            velocity.y = -2f;
         }
+
+        velocity.y += gravity * Time.deltaTime;
 
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             Jump();
         }
 
-        // ¸¶¿ì½º È¸Àü Ã³¸®
+        // ë§ˆìš°ìŠ¤ íšŒì „
         mouseX += Input.GetAxis("Mouse X") * mouseSpeed;
         transform.localEulerAngles = new Vector3(0, mouseX, 0);
 
-        // ÀÌµ¿ Ã³¸® (´Ş¸®±â Æ÷ÇÔ)
+        // ì´ë™ ì†ë„
         float moveSpeed = speed;
 
         if (Input.GetKey(KeyCode.LeftShift) && !Input.GetKey(KeyCode.LeftControl))
         {
-            moveSpeed *= RunSpeed; // ´Ş¸®±â ¼Óµµ Áõ°¡
+            moveSpeed *= RunSpeed;
         }
         else if (Input.GetKey(KeyCode.LeftControl))
         {
-            moveSpeed = SitSpeed; // ¾É¾ÒÀ» ¶§ ¼Óµµ °¨¼Ò
-            controller.height = SitHeight; // ³ôÀÌ º¯°æ
+            moveSpeed = SitSpeed;
+            controller.height = SitHeight;
         }
         else
         {
-            controller.height = originalHeight; // ¿ø·¡ ³ôÀÌ·Î º¹±¸
+            controller.height = originalHeight;
         }
 
         float moveX = Input.GetAxis("Horizontal");
         float moveZ = Input.GetAxis("Vertical");
 
-        // ÀÌµ¿ º¤ÅÍ °è»ê ÈÄ y Ãà °ª Á¦°Å
         Vector3 move = transform.right * moveX + transform.forward * moveZ;
-        move.y = 0; // y Ãà °ª Á¦°Å (ºÒÇÊ¿äÇÑ ÀÌµ¿ ¹æÁö)
+        move.y = 0;
 
-        controller.Move(move.normalized * moveSpeed * Time.deltaTime); // Á¤±ÔÈ­ÇÏ¿© ¹æÇâ À¯Áö
-
-        velocity.y += gravity * Time.deltaTime;
-        controller.Move(velocity * Time.deltaTime);
+        controller.Move(move.normalized * moveSpeed * Time.deltaTime);
+        controller.Move(new Vector3(0, velocity.y, 0) * Time.deltaTime);
     }
 
     void Jump()
     {
         velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
     }
+
+    public void SetCanMove(bool value)
+    {
+        canMove = value;
+    }
+
 }
