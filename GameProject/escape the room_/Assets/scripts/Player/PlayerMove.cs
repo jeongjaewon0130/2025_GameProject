@@ -30,6 +30,12 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
+        if (!canMove)
+        {
+            velocity = Vector3.zero;
+            return;
+        }
+
         isGrounded = controller.isGrounded;
 
         if (isGrounded && velocity.y < 0)
@@ -42,12 +48,6 @@ public class PlayerMove : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             Jump();
-        }
-
-        if (!canMove)
-        {
-            velocity = Vector3.zero;
-            return;
         }
 
         // 마우스 회전

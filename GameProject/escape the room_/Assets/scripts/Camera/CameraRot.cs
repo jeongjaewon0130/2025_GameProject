@@ -5,27 +5,26 @@ using UnityEngine;
 
 public class CameraRot : MonoBehaviour
 {
-    [SerializeField] private float mouseSpeed = 8f;
-    private float mouseX = 0f;
-    private float mouseY = 0f;
+    
+    [SerializeField] private float mouseSpeed = 8f; //회전속도
+    private float mouseX = 0f; //좌우 회전값을 담을 변수
+    private float mouseY = 0f; //위아래 회전값을 담을 변수
 
-    public bool canLook = true;
+    // Start is called before the first frame update
+    void Start()
+    {
 
+    }
+
+    // Update is called once per frame
     void Update()
     {
-        if (!canLook) return;
-
         mouseX += Input.GetAxis("Mouse X") * mouseSpeed;
         mouseY += Input.GetAxis("Mouse Y") * mouseSpeed;
 
         mouseX = Mathf.Clamp(mouseX, -50f, 30f);
         mouseY = Mathf.Clamp(mouseY, -50f, 30f);
 
-        transform.localEulerAngles = new Vector3(-mouseY, mouseX, 0);
-    }
-
-    public void SetCanLook(bool value)
-    {
-        canLook = value;
+        this.transform.localEulerAngles = new Vector3(-mouseY, mouseX, 0);
     }
 }

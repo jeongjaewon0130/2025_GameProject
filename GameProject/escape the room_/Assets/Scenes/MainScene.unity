@@ -3817,6 +3817,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 524301a47ce15e243bdf6b25dbcc25fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  keypadUI: {fileID: 1401632673}
 --- !u!114 &963194232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3830,7 +3831,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mouseSpeed: 8
-  canLook: 1
 --- !u!1 &1042734391
 GameObject:
   m_ObjectHideFlags: 0
@@ -4518,9 +4518,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cccc92dc6763b347a1de902d04073d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerMove: {fileID: 1483763944}
   doorAnimator: {fileID: 2023995715}
-  cameraRot: {fileID: 963194232}
   keypadUI: {fileID: 1401632673}
   interactPrompt: {fileID: 2107207892}
   inputDisplay: {fileID: 1638479}
