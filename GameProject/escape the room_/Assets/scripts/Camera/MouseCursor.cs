@@ -14,15 +14,6 @@ public class MouseCursor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            Cursor.lockState = CursorLockMode.None; //마우스 잠금 헤제
-            Cursor.visible = true; //마우스 커서 보이기
-        }
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            Cursor.lockState = CursorLockMode.Locked; //마우스 잠금 헤제
-            Cursor.visible = false; //마우스 커서 보이기
-        }
+        
     }
 }
