@@ -4,34 +4,16 @@ using UnityEngine;
 
 public class MouseCursor : MonoBehaviour
 {
-    public GameObject keypadUI;
-
+    // Start is called before the first frame update
     void Start()
     {
-        LockCursor();
+        Cursor.lockState = CursorLockMode.Locked; //마우스 커서를 화면에서 중앙으로 고정
+        Cursor.visible = false; // 마우스 커서를 숨김
     }
 
+    // Update is called once per frame
     void Update()
     {
-        if (keypadUI.activeSelf)
-        {
-            UnlockCursor();
-        }
-        else
-        {
-            LockCursor();
-        }
-    }
-
-    void LockCursor()
-    {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
-    }
-
-    void UnlockCursor()
-    {
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
+        
     }
 }
