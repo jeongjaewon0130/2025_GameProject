@@ -6,9 +6,7 @@ using UnityEngine.LowLevel;
 
 public class KeyPadManager : MonoBehaviour
 {
-    public PlayerMove playerMove;
     public Animator doorAnimator;
-    public CameraRot cameraRot;
 
     public GameObject keypadUI;
     public GameObject interactPrompt;
@@ -49,12 +47,6 @@ public class KeyPadManager : MonoBehaviour
 
         if (playerLook != null)
             playerLook.enabled = false;
-
-        if (playerMove != null)
-            playerMove.SetCanMove(false);
-
-        if (cameraRot != null)
-            cameraRot.enabled = false;
     }
 
     public void CloseUI()
@@ -65,12 +57,6 @@ public class KeyPadManager : MonoBehaviour
 
         if (playerLook != null)
             playerLook.enabled = true;
-
-        if (playerMove != null)
-            playerMove.SetCanMove(true);
-
-        if (cameraRot != null)
-            cameraRot.enabled = true;
     }
 
     public void AddDigit(string digit)
