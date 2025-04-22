@@ -3,7 +3,7 @@ using UnityEngine;
 public class InventoryUI : MonoBehaviour
 {
     public GameObject slotPrefab;
-    public int slotCount = 27;
+    public int slotCount = 8;
 
     void Start()
     {
