@@ -273,7 +273,7 @@ GameObject:
   - component: {fileID: 3522475245699945698}
   - component: {fileID: -5585988328004011605}
   m_Layer: 0
-  m_Name: Doctor
+  m_Name: Doctor Walk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -305,8 +305,8 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1127507302927403933}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Avatar: {fileID: 9000000, guid: d180827fb7e853241bd1d349bce54e52, type: 3}
+  m_Controller: {fileID: 9100000, guid: c988b1d649209444baed298800d4c7d7, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
