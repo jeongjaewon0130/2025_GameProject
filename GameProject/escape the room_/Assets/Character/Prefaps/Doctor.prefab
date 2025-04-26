@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2057072880883434
+--- !u!1 &26958546625922534
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,62 +8,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2899931126563416558}
+  - component: {fileID: 3563473227802498513}
   m_Layer: 0
-  m_Name: Doctor_RightHandIndex4
+  m_Name: Doctor_LeftHandRing2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2899931126563416558
+--- !u!4 &3563473227802498513
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2057072880883434}
+  m_GameObject: {fileID: 26958546625922534}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0016859337, y: 0.079585776, z: -0.0000000020556223}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3428287287540826996}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &50267502591869153
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 788913642787104517}
-  m_Layer: 0
-  m_Name: Doctor_RightHandThumb3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &788913642787104517
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 50267502591869153}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.000026521446, y: -0.0009593642, z: 0.16540055, w: 0.986226}
-  m_LocalPosition: {x: -0.017856713, y: 0.12812205, z: -0.0000000021280786}
+  m_LocalRotation: {x: 0.0000007353402, y: -0.0003001474, z: 0.015974741, w: 0.9998724}
+  m_LocalPosition: {x: -0.0015819336, y: 0.0823103, z: -0.0000000010481037}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3447136724505692838}
-  m_Father: {fileID: 2322204538290684462}
+  - {fileID: 972029540389682452}
+  m_Father: {fileID: 6283858339895153505}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &87161730043741365
+--- !u!1 &347038795627379017
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -71,31 +40,35 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4175786379399315420}
+  - component: {fileID: 5354042080240229988}
   m_Layer: 0
-  m_Name: Doctor_LeftShoulder
+  m_Name: Doctor_RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4175786379399315420
+--- !u!4 &5354042080240229988
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 87161730043741365}
+  m_GameObject: {fileID: 347038795627379017}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.5729887, y: -0.40886313, z: 0.5860111, w: 0.40137997}
-  m_LocalPosition: {x: -0.23641059, y: 0.49827498, z: -0.005620872}
+  m_LocalRotation: {x: 0.027510595, y: -0.009705505, z: -0.033717647, w: 0.99900556}
+  m_LocalPosition: {x: 0.000000012634522, y: 0.82183, z: 6.735729e-10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 6920434770847071552}
-  m_Father: {fileID: 5496676868387982769}
+  - {fileID: 762382003291171884}
+  - {fileID: 3821903794979483313}
+  - {fileID: 5941631423429044279}
+  - {fileID: 3231927786724304839}
+  - {fileID: 527566468019053692}
+  m_Father: {fileID: 8638657728064741245}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &406212993075191304
+--- !u!1 &356499087405838884
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -103,31 +76,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 9221301609377055933}
+  - component: {fileID: 8255533501837003720}
   m_Layer: 0
-  m_Name: Doctor_RightHandMiddle1
+  m_Name: Doctor_LeftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &9221301609377055933
+--- !u!4 &8255533501837003720
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 406212993075191304}
+  m_GameObject: {fileID: 356499087405838884}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.026725898, y: -0.027509643, z: 0.05297711, w: 0.9978589}
-  m_LocalPosition: {x: -0.030686775, y: 0.4502181, z: -0.024545426}
+  m_LocalRotation: {x: -0.17433867, y: 0.0009514396, z: -0.010911279, w: 0.98462486}
+  m_LocalPosition: {x: 1.2146667e-10, y: 0.508208, z: -0.000000002360592}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2605336217422538472}
-  m_Father: {fileID: 2756913124380440380}
+  - {fileID: 9129936278147072569}
+  m_Father: {fileID: 441886306873135609}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &515688005428507651
+--- !u!1 &427041531661943513
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -135,31 +108,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5080653025485343584}
+  - component: {fileID: 7155554919970122951}
   m_Layer: 0
-  m_Name: Doctor_RightHandRing3
+  m_Name: Doctor_LeftHandMiddle1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5080653025485343584
+--- !u!4 &7155554919970122951
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515688005428507651}
+  m_GameObject: {fileID: 427041531661943513}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0000007848279, y: 0.00007110028, z: 0.0001673162, w: 1}
-  m_LocalPosition: {x: -0.0007276773, y: 0.08295728, z: 2.5495636e-10}
+  m_LocalRotation: {x: -0.031289678, y: 0.06353438, z: -0.028568415, w: 0.99707985}
+  m_LocalPosition: {x: 0.029262993, y: 0.4626126, z: -0.0312601}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5178473006879914003}
-  m_Father: {fileID: 5964411489006364340}
+  - {fileID: 2186315400150099292}
+  m_Father: {fileID: 293916568860070014}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &560683423989361687
+--- !u!1 &554346555800798515
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -167,31 +140,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7342668133219309174}
+  - component: {fileID: 5531606941807028634}
   m_Layer: 0
-  m_Name: Doctor_LeftHandRing3
+  m_Name: Doctor_LeftHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7342668133219309174
+--- !u!4 &5531606941807028634
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 560683423989361687}
+  m_GameObject: {fileID: 554346555800798515}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0000017558475, y: -0.00016816646, z: -0.0025399455, w: 0.9999968}
-  m_LocalPosition: {x: 0.001053692, y: 0.08276985, z: 1.5278231e-10}
+  m_LocalRotation: {x: 0.00000027985146, y: 0.00014877702, z: 0.018622803, w: 0.99982655}
+  m_LocalPosition: {x: -0.0012373615, y: 0.07533741, z: 0.0000000029009088}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2850701653328962861}
-  m_Father: {fileID: 6258224679632691827}
+  - {fileID: 589374923493686072}
+  m_Father: {fileID: 2895820591822434916}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &741313119731698870
+--- !u!1 &803893115682150155
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -199,135 +172,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6730897229513987776}
-  m_Layer: 0
-  m_Name: Doctor_RightHandPinky1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6730897229513987776
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 741313119731698870}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.022972336, y: -0.10875249, z: 0.033529654, w: 0.9932376}
-  m_LocalPosition: {x: 0.08031647, y: 0.39217964, z: -0.019464217}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5988056539159868551}
-  m_Father: {fileID: 2756913124380440380}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &787161100914143138
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5006984616812882735}
-  m_Layer: 0
-  m_Name: Doctor
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5006984616812882735
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 787161100914143138}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7593496987250157591}
-  - {fileID: 9045183156472792390}
-  m_Father: {fileID: 7257237623189983430}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &866011326502494199
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6721028408537226736}
-  m_Layer: 0
-  m_Name: Doctor_RightHandPinky4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6721028408537226736
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 866011326502494199}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.00006915634, y: 0.058985345, z: 9.222731e-11}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3156794256864122452}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1263113196616596048
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4088395745293867889}
-  m_Layer: 0
-  m_Name: Doctor_RightArm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4088395745293867889
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1263113196616596048}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.1746796, y: 0.0012557775, z: -0.000091090784, w: 0.98462456}
-  m_LocalPosition: {x: -9.633198e-11, y: 0.508208, z: -0.0000000023616757}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 30239360679592934}
-  m_Father: {fileID: 7091253874787625178}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1537381572919675380
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4075283633620840841}
+  - component: {fileID: 2895820591822434916}
   m_Layer: 0
   m_Name: Doctor_LeftHandIndex1
   m_TagString: Untagged
@@ -335,23 +180,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4075283633620840841
+--- !u!4 &2895820591822434916
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1537381572919675380}
+  m_GameObject: {fileID: 803893115682150155}
   serializedVersion: 2
   m_LocalRotation: {x: -0.03315569, y: 0.021720553, z: -0.04045761, w: 0.9983948}
   m_LocalPosition: {x: 0.09557013, y: 0.48077425, z: -0.0024299675}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8674183330231035899}
-  m_Father: {fileID: 8546850726300789445}
+  - {fileID: 5531606941807028634}
+  m_Father: {fileID: 293916568860070014}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1572612446429762396
+--- !u!1 &823350540993606835
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -359,31 +204,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2605336217422538472}
+  - component: {fileID: 3231927786724304839}
   m_Layer: 0
-  m_Name: Doctor_RightHandMiddle2
+  m_Name: Doctor_RightHandRing1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2605336217422538472
+--- !u!4 &3231927786724304839
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1572612446429762396}
+  m_GameObject: {fileID: 823350540993606835}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.000013906328, y: 0.0014731874, z: -0.026938716, w: 0.999636}
-  m_LocalPosition: {x: 0.0038933947, y: 0.10645547, z: -0.0000000059126117}
+  m_LocalRotation: {x: -0.025351733, y: -0.06675395, z: 0.043308947, w: 0.9965067}
+  m_LocalPosition: {x: 0.04363113, y: 0.4500479, z: -0.012357134}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8508880636668423319}
-  m_Father: {fileID: 9221301609377055933}
+  - {fileID: 4722285320884334099}
+  m_Father: {fileID: 5354042080240229988}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1592995891834714703
+--- !u!1 &887646998466957881
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -391,31 +236,33 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6586269815338467800}
+  - component: {fileID: 5385963681940022247}
   m_Layer: 0
-  m_Name: Doctor_RightHandIndex2
+  m_Name: Doctor_Spine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6586269815338467800
+--- !u!4 &5385963681940022247
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1592995891834714703}
+  m_GameObject: {fileID: 887646998466957881}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0000068613494, y: 0.00080780376, z: -0.022830268, w: 0.99973905}
-  m_LocalPosition: {x: 0.0029158455, y: 0.093602456, z: -0.0000000043854884}
+  m_LocalRotation: {x: 0, y: -0, z: -1.3173977e-28, w: 1}
+  m_LocalPosition: {x: -0, y: 0.5437785, z: -1.4813892e-10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3428287287540826996}
-  m_Father: {fileID: 6857335984801303921}
+  - {fileID: 441886306873135609}
+  - {fileID: 7600310285391764401}
+  - {fileID: 7282789100833195372}
+  m_Father: {fileID: 3994724998460912826}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1710184767941583297
+--- !u!1 &1127507302927403933
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -423,31 +270,54 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5988056539159868551}
+  - component: {fileID: 3522475245699945698}
+  - component: {fileID: -5585988328004011605}
   m_Layer: 0
-  m_Name: Doctor_RightHandPinky2
+  m_Name: Doctor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5988056539159868551
+--- !u!4 &3522475245699945698
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1710184767941583297}
+  m_GameObject: {fileID: 1127507302927403933}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.00000026722938, y: 0.000031925887, z: 0.00665094, w: 0.9999779}
-  m_LocalPosition: {x: -0.00053881854, y: 0.08340655, z: -2.7880845e-10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.2821011, y: 0.5, z: -19.161026}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 3156794256864122452}
-  m_Father: {fileID: 6730897229513987776}
+  - {fileID: 748958844504390131}
+  - {fileID: 7504311640444188833}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2036728150013976000
+--- !u!95 &-5585988328004011605
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127507302927403933}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1203954279117493676
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -455,126 +325,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6095291819579743394}
+  - component: {fileID: 4260166050519615420}
   m_Layer: 0
-  m_Name: Doctor_Head
+  m_Name: Doctor_LeftHandMiddle4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6095291819579743394
+--- !u!4 &4260166050519615420
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2036728150013976000}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -1.907717e-31, w: 1}
-  m_LocalPosition: {x: -0, y: 0.46718565, z: 0.09317037}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1770512550260543604}
-  m_Father: {fileID: 3562089895563196099}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2040921966072490031
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2950845204532715833}
-  m_Layer: 0
-  m_Name: Doctor_RightHandThumb1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2950845204532715833
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2040921966072490031}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.22081146, y: 0.034684572, z: 0.23862335, w: 0.94503874}
-  m_LocalPosition: {x: -0.06152798, y: 0.14546742, z: 0.043220185}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2322204538290684462}
-  m_Father: {fileID: 2756913124380440380}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2065369257506276615
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8317135030492451117}
-  m_Layer: 0
-  m_Name: Doctor_RightUpLeg
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8317135030492451117
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2065369257506276615}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.0032780902, y: -0.0060451436, z: 0.9999711, w: 0.0032497477}
-  m_LocalPosition: {x: 0.40743977, y: -0.22650215, z: 0.049105134}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4605023085609555568}
-  m_Father: {fileID: 1321102644859935903}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2264851023065129265
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1770512550260543604}
-  m_Layer: 0
-  m_Name: Doctor_HeadTop_End
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1770512550260543604
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2264851023065129265}
+  m_GameObject: {fileID: 1203954279117493676}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.6543823, z: 0.13050279}
+  m_LocalPosition: {x: -0.0018315377, y: 0.07364007, z: -0.0000000034329855}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6095291819579743394}
+  m_Father: {fileID: 4397554394427675093}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2374932806369350032
+--- !u!1 &1263144740919170501
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -582,229 +356,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2850701653328962861}
-  m_Layer: 0
-  m_Name: Doctor_LeftHandRing4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2850701653328962861
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2374932806369350032}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.00052823866, y: 0.06898921, z: 8.073229e-10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7342668133219309174}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2577504832365474726
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8781607261464278143}
-  m_Layer: 0
-  m_Name: Doctor_RightHandMiddle4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8781607261464278143
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2577504832365474726}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.002129819, y: 0.09483791, z: -9.926566e-12}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8508880636668423319}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2697317769215678743
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6105752472730690848}
-  m_Layer: 0
-  m_Name: Doctor_LeftToeBase
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6105752472730690848
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2697317769215678743}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.26483846, y: -0.008535209, z: 0.002344254, w: 0.9642522}
-  m_LocalPosition: {x: 0.0000000023601936, y: 0.6642088, z: -0.000000009769142}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3416253084349637308}
-  m_Father: {fileID: 4654905296274364904}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2712457136305462125
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6857335984801303921}
-  m_Layer: 0
-  m_Name: Doctor_RightHandIndex1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6857335984801303921
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2712457136305462125}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.026905945, y: -0.0141879525, z: 0.049927723, w: 0.9982895}
-  m_LocalPosition: {x: -0.09326085, y: 0.4581336, z: -0.004884425}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6586269815338467800}
-  m_Father: {fileID: 2756913124380440380}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2778834682006461090
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2450614697590779293}
-  m_Layer: 0
-  m_Name: Doctor_LeftHandRing1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2450614697590779293
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2778834682006461090}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.032078832, y: 0.068809316, z: -0.043355152, w: 0.99617094}
-  m_LocalPosition: {x: -0.04019915, y: 0.4343236, z: -0.018021133}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6258224679632691827}
-  m_Father: {fileID: 8546850726300789445}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2799856379713976913
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8752710224411560377}
-  m_Layer: 0
-  m_Name: Doctor_LeftHandIndex3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8752710224411560377
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2799856379713976913}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.0000035031692, y: -0.00035236566, z: -0.012174898, w: 0.99992585}
-  m_LocalPosition: {x: 0.0014401113, y: 0.0691225, z: 0.0000000010758612}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5744109080068899400}
-  m_Father: {fileID: 8674183330231035899}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2944866231699567310
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3447136724505692838}
-  m_Layer: 0
-  m_Name: Doctor_RightHandThumb4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3447136724505692838
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2944866231699567310}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.023189459, y: 0.11812391, z: -5.809986e-10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 788913642787104517}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3017972360923931428
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9045183156472792390}
-  - component: {fileID: 8052795269085970494}
+  - component: {fileID: 7888111805406413137}
+  - component: {fileID: 8088932873360152487}
   m_Layer: 0
   m_Name: eye
   m_TagString: Untagged
@@ -812,28 +365,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &9045183156472792390
+--- !u!4 &7888111805406413137
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3017972360923931428}
+  m_GameObject: {fileID: 1263144740919170501}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5006984616812882735}
+  m_Father: {fileID: 748958844504390131}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!137 &8052795269085970494
+--- !u!137 &8088932873360152487
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3017972360923931428}
+  m_GameObject: {fileID: 1263144740919170501}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -874,15 +427,15 @@ SkinnedMeshRenderer:
   m_SkinnedMotionVectors: 1
   m_Mesh: {fileID: 360388842983368876, guid: 72a508df292aac7468e1d9e7d33ae440, type: 3}
   m_Bones:
-  - {fileID: 3562089895563196099}
-  - {fileID: 6095291819579743394}
+  - {fileID: 7600310285391764401}
+  - {fileID: 645205977622700631}
   m_BlendShapeWeights: []
-  m_RootBone: {fileID: 3562089895563196099}
+  m_RootBone: {fileID: 7600310285391764401}
   m_AABB:
     m_Center: {x: 0.1370658, y: 0.69041646, z: 0.40373844}
     m_Extent: {x: 0.04530814, y: 0.029817462, z: 0.032746613}
   m_DirtyAABB: 0
---- !u!1 &3037608792788589408
+--- !u!1 &1487776830925585743
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -890,40 +443,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8341455523230634109}
-  m_Layer: 0
-  m_Name: Doctor_Spine1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8341455523230634109
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3037608792788589408}
-  serializedVersion: 2
-  m_LocalRotation: {x: 4.2040046e-26, y: -6.1764064e-14, z: 6.8065546e-13, w: 1}
-  m_LocalPosition: {x: -0, y: 0.4758059, z: -5.1382865e-10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5496676868387982769}
-  m_Father: {fileID: 5010891657280360503}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3179985100934360472
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7257237623189983430}
-  - component: {fileID: 6110021980030802290}
+  - component: {fileID: 748958844504390131}
   m_Layer: 0
   m_Name: Doctor
   m_TagString: Untagged
@@ -931,45 +451,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7257237623189983430
+--- !u!4 &748958844504390131
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3179985100934360472}
+  m_GameObject: {fileID: 1487776830925585743}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.455206, y: 0.5, z: -9.540344}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
-  m_ConstrainProportionsScale: 1
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5006984616812882735}
-  - {fileID: 1321102644859935903}
-  m_Father: {fileID: 0}
+  - {fileID: 7709074735650718637}
+  - {fileID: 7888111805406413137}
+  m_Father: {fileID: 3522475245699945698}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &6110021980030802290
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3179985100934360472}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 72a508df292aac7468e1d9e7d33ae440, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 1
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!1 &3256714901931281213
+--- !u!1 &1501777661166048235
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -977,31 +476,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3459865480950878312}
+  - component: {fileID: 143982263195335290}
   m_Layer: 0
-  m_Name: Doctor_LeftHandPinky1
+  m_Name: Doctor_RightHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3459865480950878312
+--- !u!4 &143982263195335290
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3256714901931281213}
+  m_GameObject: {fileID: 1501777661166048235}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.031621773, y: 0.09354283, z: -0.045756098, w: 0.99406046}
-  m_LocalPosition: {x: -0.08463396, y: 0.37661636, z: -0.017330345}
+  m_LocalRotation: {x: -0.000026521446, y: -0.0009593642, z: 0.16540055, w: 0.986226}
+  m_LocalPosition: {x: -0.017856713, y: 0.12812205, z: -0.0000000021280786}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1138132574353785290}
-  m_Father: {fileID: 8546850726300789445}
+  - {fileID: 8229663096346829805}
+  m_Father: {fileID: 5140831943763191544}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3374208836147839380
+--- !u!1 &1742056144427962489
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1009,31 +508,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6391553990050293068}
+  - component: {fileID: 508481750869202563}
   m_Layer: 0
-  m_Name: Doctor_LeftHandThumb2
+  m_Name: Doctor_RightHandMiddle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6391553990050293068
+--- !u!4 &508481750869202563
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3374208836147839380}
+  m_GameObject: {fileID: 1742056144427962489}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0022399724, y: 0.021172136, z: 0.02450554, w: 0.999473}
-  m_LocalPosition: {x: 0.009919813, y: 0.12239079, z: -0.0000000020551545}
+  m_LocalRotation: {x: 0.000013906328, y: 0.0014731874, z: -0.026938716, w: 0.999636}
+  m_LocalPosition: {x: 0.0038933947, y: 0.10645547, z: -0.0000000059126117}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4265221860673214784}
-  m_Father: {fileID: 7490460341127268320}
+  - {fileID: 7093501915171851115}
+  m_Father: {fileID: 3821903794979483313}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3448870194659392029
+--- !u!1 &1829650756314718587
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1041,31 +540,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3428287287540826996}
+  - component: {fileID: 8170420740299629094}
   m_Layer: 0
-  m_Name: Doctor_RightHandIndex3
+  m_Name: Doctor_RightHandPinky3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3428287287540826996
+--- !u!4 &8170420740299629094
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3448870194659392029}
+  m_GameObject: {fileID: 1829650756314718587}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0000062047097, y: -0.00033100042, z: -0.0033300014, w: 0.9999944}
-  m_LocalPosition: {x: -0.0012299139, y: 0.08469749, z: 2.9660044e-10}
+  m_LocalRotation: {x: -0.0000006174423, y: -0.00023792926, z: -0.0028349685, w: 0.99999595}
+  m_LocalPosition: {x: 0.0004696625, y: 0.068715304, z: -5.5025595e-10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2899931126563416558}
-  m_Father: {fileID: 6586269815338467800}
+  - {fileID: 4462802828365074446}
+  m_Father: {fileID: 3401336165987230777}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3656601554647401201
+--- !u!1 &1852589543819608529
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1073,35 +572,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8546850726300789445}
+  - component: {fileID: 7901003141492680591}
   m_Layer: 0
-  m_Name: Doctor_LeftHand
+  m_Name: Doctor_RightHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8546850726300789445
+--- !u!4 &7901003141492680591
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3656601554647401201}
+  m_GameObject: {fileID: 1852589543819608529}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.03417113, y: 0.015730016, z: 0.030992476, w: 0.9988115}
-  m_LocalPosition: {x: -8.771634e-10, y: 0.8136779, z: -0.000000009438436}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.0016859337, y: 0.079585776, z: -0.0000000020556223}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4075283633620840841}
-  - {fileID: 1810367656106213027}
-  - {fileID: 3459865480950878312}
-  - {fileID: 2450614697590779293}
-  - {fileID: 7490460341127268320}
-  m_Father: {fileID: 1030948212149397147}
+  m_Children: []
+  m_Father: {fileID: 5181521483847275183}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3823305438858534876
+--- !u!1 &1971432067381279042
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1109,39 +603,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5462459006919285273}
-  m_Layer: 0
-  m_Name: Doctor_RightFoot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5462459006919285273
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3823305438858534876}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.47933203, y: -0.041470777, z: 0.06861408, w: 0.873964}
-  m_LocalPosition: {x: -0.0000000021839237, y: 1.291534, z: 0.0000000016475017}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2150629262358580763}
-  m_Father: {fileID: 4605023085609555568}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3834125913948076789
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6767988945213625680}
+  - component: {fileID: 7397028584751558155}
   m_Layer: 0
   m_Name: Doctor_LeftUpLeg
   m_TagString: Untagged
@@ -1149,23 +611,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6767988945213625680
+--- !u!4 &7397028584751558155
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3834125913948076789}
+  m_GameObject: {fileID: 1971432067381279042}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0033964321, y: -0.0035715934, z: 0.9999828, w: -0.0031862855}
   m_LocalPosition: {x: -0.40743977, y: -0.22650215, z: 0.04382146}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 7765315037662308575}
-  m_Father: {fileID: 1321102644859935903}
+  - {fileID: 3406303685629172338}
+  m_Father: {fileID: 7504311640444188833}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4043276854209574887
+--- !u!1 &2032106240903013273
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1173,770 +635,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1810367656106213027}
-  m_Layer: 0
-  m_Name: Doctor_LeftHandMiddle1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1810367656106213027
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4043276854209574887}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.031289678, y: 0.06353438, z: -0.028568415, w: 0.99707985}
-  m_LocalPosition: {x: 0.029262993, y: 0.4626126, z: -0.0312601}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 858049163883619539}
-  m_Father: {fileID: 8546850726300789445}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4461413580410712349
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5744109080068899400}
-  m_Layer: 0
-  m_Name: Doctor_LeftHandIndex4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5744109080068899400
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4461413580410712349}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.00020274875, y: 0.057663597, z: 0.0000000034679544}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8752710224411560377}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4584693276091451924
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3562089895563196099}
-  m_Layer: 0
-  m_Name: Doctor_Neck
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3562089895563196099
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4584693276091451924}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.014037216, y: 3.943704e-14, z: 2.279497e-13, w: 0.9999015}
-  m_LocalPosition: {x: -0, y: 0.6117505, z: -0.0000000064971406}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6095291819579743394}
-  m_Father: {fileID: 5496676868387982769}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4716166643048112898
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2322204538290684462}
-  m_Layer: 0
-  m_Name: Doctor_RightHandThumb2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2322204538290684462
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4716166643048112898}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.0013322382, y: -0.014833062, z: -0.04885663, w: 0.9986948}
-  m_LocalPosition: {x: -0.0053327223, y: 0.13089238, z: 8.03424e-10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 788913642787104517}
-  m_Father: {fileID: 2950845204532715833}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4720988297439209298
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4265221860673214784}
-  m_Layer: 0
-  m_Name: Doctor_LeftHandThumb3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4265221860673214784
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4720988297439209298}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.0001351499, y: 0.0031015656, z: -0.17262973, w: 0.9849819}
-  m_LocalPosition: {x: 0.01657441, y: 0.1268698, z: 0.000000002161096}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1430452440580015496}
-  m_Father: {fileID: 6391553990050293068}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4743783234814156565
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7091253874787625178}
-  m_Layer: 0
-  m_Name: Doctor_RightShoulder
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7091253874787625178
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4743783234814156565}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.5794963, y: -0.40486673, z: 0.57983845, w: -0.40503615}
-  m_LocalPosition: {x: 0.23641059, y: 0.49813837, z: -0.0007563903}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4088395745293867889}
-  m_Father: {fileID: 5496676868387982769}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4827840307809209494
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7765315037662308575}
-  m_Layer: 0
-  m_Name: Doctor_LeftLeg
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7765315037662308575
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4827840307809209494}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.025441261, y: -0.00011763313, z: -0.0068200678, w: 0.99965304}
-  m_LocalPosition: {x: 0.0000000042234234, y: 1.530557, z: 0.000000002214349}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4654905296274364904}
-  m_Father: {fileID: 6767988945213625680}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4829684247267458291
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 858049163883619539}
-  m_Layer: 0
-  m_Name: Doctor_LeftHandMiddle2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &858049163883619539
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4829684247267458291}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.00000024342182, y: 0.000006648047, z: 0.00010951446, w: 1}
-  m_LocalPosition: {x: 0.00091427413, y: 0.09055396, z: 0.0000000024242268}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2583083171443433697}
-  m_Father: {fileID: 1810367656106213027}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4941279013729924998
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7490460341127268320}
-  m_Layer: 0
-  m_Name: Doctor_LeftHandThumb1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7490460341127268320
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4941279013729924998}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.21511172, y: -0.04938382, z: -0.21469504, w: 0.95141697}
-  m_LocalPosition: {x: 0.0695431, y: 0.131326, z: 0.038424652}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6391553990050293068}
-  m_Father: {fileID: 8546850726300789445}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5024679227939945559
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1345022684899917337}
-  m_Layer: 0
-  m_Name: Doctor_RightToe_End
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1345022684899917337
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5024679227939945559}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.943644e-10, y: 0.25465697, z: -6.764543e-10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2150629262358580763}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5080729680301151732
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8674183330231035899}
-  m_Layer: 0
-  m_Name: Doctor_LeftHandIndex2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8674183330231035899
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5080729680301151732}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.00000027985146, y: 0.00014877702, z: 0.018622803, w: 0.99982655}
-  m_LocalPosition: {x: -0.0012373615, y: 0.07533741, z: 0.0000000029009088}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8752710224411560377}
-  m_Father: {fileID: 4075283633620840841}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5093982047580710160
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6258224679632691827}
-  m_Layer: 0
-  m_Name: Doctor_LeftHandRing2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6258224679632691827
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5093982047580710160}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.0000007353402, y: -0.0003001474, z: 0.015974741, w: 0.9998724}
-  m_LocalPosition: {x: -0.0015819336, y: 0.0823103, z: -0.0000000010481037}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7342668133219309174}
-  m_Father: {fileID: 2450614697590779293}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5098566034944579638
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1430452440580015496}
-  m_Layer: 0
-  m_Name: Doctor_LeftHandThumb4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1430452440580015496
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5098566034944579638}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.026494233, y: 0.12011405, z: 0.0000000031549554}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4265221860673214784}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5261066671476225139
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2186166003097802818}
-  m_Layer: 0
-  m_Name: Doctor_RightHandRing1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2186166003097802818
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5261066671476225139}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.025351733, y: -0.06675395, z: 0.043308947, w: 0.9965067}
-  m_LocalPosition: {x: 0.04363113, y: 0.4500479, z: -0.012357134}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5964411489006364340}
-  m_Father: {fileID: 2756913124380440380}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5264352512361250300
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 30239360679592934}
-  m_Layer: 0
-  m_Name: Doctor_RightForeArm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &30239360679592934
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5264352512361250300}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.0000002272262, y: -0.008090924, z: 0.000000051621942, w: 0.9999673}
-  m_LocalPosition: {x: 4.4719597e-10, y: 0.7331665, z: 0.0000000040573287}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2756913124380440380}
-  m_Father: {fileID: 4088395745293867889}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5361195754341822707
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1030948212149397147}
-  m_Layer: 0
-  m_Name: Doctor_LeftForeArm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1030948212149397147
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5361195754341822707}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.00000008038915, y: 0.00651794, z: -0.00000050245336, w: 0.9999788}
-  m_LocalPosition: {x: -7.904619e-11, y: 0.7327426, z: 8.984881e-10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8546850726300789445}
-  m_Father: {fileID: 6920434770847071552}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5668951311220316824
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2150629262358580763}
-  m_Layer: 0
-  m_Name: Doctor_RightToeBase
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2150629262358580763
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5668951311220316824}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.26930556, y: 0.008626059, z: -0.0024122419, w: 0.9630131}
-  m_LocalPosition: {x: -0.0000000027632532, y: 0.65429693, z: -0.000000014572043}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1345022684899917337}
-  m_Father: {fileID: 5462459006919285273}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5695255624768253597
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 114760163125919752}
-  m_Layer: 0
-  m_Name: Doctor_LeftHandPinky4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &114760163125919752
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5695255624768253597}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.00093062234, y: 0.0490868, z: -2.2070394e-10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7070653465803582082}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5791270562687191637
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4605023085609555568}
-  m_Layer: 0
-  m_Name: Doctor_RightLeg
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4605023085609555568
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5791270562687191637}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.022074752, y: 0.00011288281, z: 0.006852219, w: 0.99973285}
-  m_LocalPosition: {x: -9.3112956e-10, y: 1.5302131, z: 0.0000000031503369}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5462459006919285273}
-  m_Father: {fileID: 8317135030492451117}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6256182800524163807
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6920434770847071552}
-  m_Layer: 0
-  m_Name: Doctor_LeftArm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6920434770847071552
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6256182800524163807}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.17433867, y: 0.0009514396, z: -0.010911279, w: 0.98462486}
-  m_LocalPosition: {x: 1.2146667e-10, y: 0.508208, z: -0.000000002360592}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1030948212149397147}
-  m_Father: {fileID: 4175786379399315420}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6442256284072356147
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4654905296274364904}
-  m_Layer: 0
-  m_Name: Doctor_LeftFoot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4654905296274364904
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6442256284072356147}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.48484775, y: 0.040327456, z: -0.06804745, w: 0.8710143}
-  m_LocalPosition: {x: 6.5515024e-11, y: 1.2912037, z: -0.000000003583377}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6105752472730690848}
-  m_Father: {fileID: 7765315037662308575}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6648117373109924576
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5178473006879914003}
-  m_Layer: 0
-  m_Name: Doctor_RightHandRing4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5178473006879914003
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6648117373109924576}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.00061678595, y: 0.07309717, z: -4.3638693e-11}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5080653025485343584}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6836294293778158005
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1138132574353785290}
-  m_Layer: 0
-  m_Name: Doctor_LeftHandPinky2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1138132574353785290
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6836294293778158005}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.0000022479908, y: -0.00046527083, z: 0.017249346, w: 0.9998511}
-  m_LocalPosition: {x: -0.0017175203, y: 0.07622407, z: 1.7030999e-10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7070653465803582082}
-  m_Father: {fileID: 3459865480950878312}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7090116271487995660
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8508880636668423319}
-  m_Layer: 0
-  m_Name: Doctor_RightHandMiddle3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8508880636668423319
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7090116271487995660}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.000005857691, y: -0.00028775656, z: -0.002562299, w: 0.99999666}
-  m_LocalPosition: {x: -0.0017635814, y: 0.10177341, z: -6.983498e-11}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8781607261464278143}
-  m_Father: {fileID: 2605336217422538472}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7264131267693934281
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3416253084349637308}
+  - component: {fileID: 934138919194956340}
   m_Layer: 0
   m_Name: Doctor_LeftToe_End
   m_TagString: Untagged
@@ -1944,22 +643,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3416253084349637308
+--- !u!4 &934138919194956340
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7264131267693934281}
+  m_GameObject: {fileID: 2032106240903013273}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.0000000010422926, y: 0.25945595, z: -4.5806473e-10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6105752472730690848}
+  m_Father: {fileID: 1933038647797995814}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7535469530483081884
+--- !u!1 &2391724889435303855
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1967,31 +666,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5010891657280360503}
+  - component: {fileID: 5181521483847275183}
   m_Layer: 0
-  m_Name: Doctor_Spine
+  m_Name: Doctor_RightHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5010891657280360503
+--- !u!4 &5181521483847275183
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7535469530483081884}
+  m_GameObject: {fileID: 2391724889435303855}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.014037039, y: 0.0000013142514, z: -0.000027389695, w: 0.9999015}
-  m_LocalPosition: {x: -0, y: 0.40767303, z: -0.011448579}
+  m_LocalRotation: {x: 0.0000062047097, y: -0.00033100042, z: -0.0033300014, w: 0.9999944}
+  m_LocalPosition: {x: -0.0012299139, y: 0.08469749, z: 2.9660044e-10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8341455523230634109}
-  m_Father: {fileID: 1321102644859935903}
+  - {fileID: 7901003141492680591}
+  m_Father: {fileID: 1604507534720181938}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7603443927128924289
+--- !u!1 &2410659383762585041
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1999,30 +698,126 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7926853127748585506}
+  - component: {fileID: 371257416859223640}
   m_Layer: 0
-  m_Name: Doctor_LeftHandMiddle4
+  m_Name: Doctor_RightToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7926853127748585506
+--- !u!4 &371257416859223640
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7603443927128924289}
+  m_GameObject: {fileID: 2410659383762585041}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.26930556, y: 0.008626059, z: -0.0024122419, w: 0.9630131}
+  m_LocalPosition: {x: -0.0000000027632532, y: 0.65429693, z: -0.000000014572043}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2001657036575746078}
+  m_Father: {fileID: 6801863222478401245}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2817378834623764261
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4150782314980876654}
+  m_Layer: 0
+  m_Name: Doctor_LeftHandPinky1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4150782314980876654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2817378834623764261}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.031621773, y: 0.09354283, z: -0.045756098, w: 0.99406046}
+  m_LocalPosition: {x: -0.08463396, y: 0.37661636, z: -0.017330345}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5445186850080131930}
+  m_Father: {fileID: 293916568860070014}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2826124292589100052
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7093501915171851115}
+  m_Layer: 0
+  m_Name: Doctor_RightHandMiddle3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7093501915171851115
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2826124292589100052}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000005857691, y: -0.00028775656, z: -0.002562299, w: 0.99999666}
+  m_LocalPosition: {x: -0.0017635814, y: 0.10177341, z: -6.983498e-11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3617592850589615353}
+  m_Father: {fileID: 508481750869202563}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3195516300538362702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8229663096346829805}
+  m_Layer: 0
+  m_Name: Doctor_RightHandThumb4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8229663096346829805
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3195516300538362702}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0018315377, y: 0.07364007, z: -0.0000000034329855}
+  m_LocalPosition: {x: 0.023189459, y: 0.11812391, z: -5.809986e-10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2583083171443433697}
+  m_Father: {fileID: 143982263195335290}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7894217440945571593
+--- !u!1 &3594532064625906813
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2030,109 +825,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2583083171443433697}
-  m_Layer: 0
-  m_Name: Doctor_LeftHandMiddle3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2583083171443433697
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7894217440945571593}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.0000045686156, y: 0.0005706049, z: -0.017591538, w: 0.99984515}
-  m_LocalPosition: {x: 0.00091726164, y: 0.088921346, z: -9.712487e-10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7926853127748585506}
-  m_Father: {fileID: 858049163883619539}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8023973122015475930
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5496676868387982769}
-  m_Layer: 0
-  m_Name: Doctor_Spine2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5496676868387982769
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8023973122015475930}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -1.3173977e-28, w: 1}
-  m_LocalPosition: {x: -0, y: 0.5437785, z: -1.4813892e-10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4175786379399315420}
-  - {fileID: 3562089895563196099}
-  - {fileID: 7091253874787625178}
-  m_Father: {fileID: 8341455523230634109}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8348888264811656190
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2756913124380440380}
-  m_Layer: 0
-  m_Name: Doctor_RightHand
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2756913124380440380
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8348888264811656190}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.027510595, y: -0.009705505, z: -0.033717647, w: 0.99900556}
-  m_LocalPosition: {x: 0.000000012634522, y: 0.82183, z: 6.735729e-10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6857335984801303921}
-  - {fileID: 9221301609377055933}
-  - {fileID: 6730897229513987776}
-  - {fileID: 2186166003097802818}
-  - {fileID: 2950845204532715833}
-  m_Father: {fileID: 30239360679592934}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8358264592826693756
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5964411489006364340}
+  - component: {fileID: 4722285320884334099}
   m_Layer: 0
   m_Name: Doctor_RightHandRing2
   m_TagString: Untagged
@@ -2140,23 +833,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5964411489006364340
+--- !u!4 &4722285320884334099
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8358264592826693756}
+  m_GameObject: {fileID: 3594532064625906813}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0000014271658, y: 0.0005395984, z: -0.01199332, w: 0.99992794}
   m_LocalPosition: {x: 0.0013444636, y: 0.08834503, z: -0.0000000037897636}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5080653025485343584}
-  m_Father: {fileID: 2186166003097802818}
+  - {fileID: 7323921633299614714}
+  m_Father: {fileID: 3231927786724304839}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8543034579101177571
+--- !u!1 &3641875864641044900
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2164,8 +857,1091 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7593496987250157591}
-  - component: {fileID: 2423441506423476908}
+  - component: {fileID: 762382003291171884}
+  m_Layer: 0
+  m_Name: Doctor_RightHandIndex1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &762382003291171884
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3641875864641044900}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.026905945, y: -0.0141879525, z: 0.049927723, w: 0.9982895}
+  m_LocalPosition: {x: -0.09326085, y: 0.4581336, z: -0.004884425}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1604507534720181938}
+  m_Father: {fileID: 5354042080240229988}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3659302496882809289
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 645205977622700631}
+  m_Layer: 0
+  m_Name: Doctor_Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &645205977622700631
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3659302496882809289}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -1.907717e-31, w: 1}
+  m_LocalPosition: {x: -0, y: 0.46718565, z: 0.09317037}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5296444487096248590}
+  m_Father: {fileID: 7600310285391764401}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3740458030593471184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5140831943763191544}
+  m_Layer: 0
+  m_Name: Doctor_RightHandThumb2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5140831943763191544
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3740458030593471184}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0013322382, y: -0.014833062, z: -0.04885663, w: 0.9986948}
+  m_LocalPosition: {x: -0.0053327223, y: 0.13089238, z: 8.03424e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 143982263195335290}
+  m_Father: {fileID: 527566468019053692}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3847980432017306879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 285727345674970735}
+  m_Layer: 0
+  m_Name: Doctor_LeftHandThumb4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &285727345674970735
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3847980432017306879}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.026494233, y: 0.12011405, z: 0.0000000031549554}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4895476386264376902}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4003853284924330354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7725006949884131441}
+  m_Layer: 0
+  m_Name: Doctor_RightLeg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7725006949884131441
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4003853284924330354}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.022074752, y: 0.00011288281, z: 0.006852219, w: 0.99973285}
+  m_LocalPosition: {x: -9.3112956e-10, y: 1.5302131, z: 0.0000000031503369}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6801863222478401245}
+  m_Father: {fileID: 7083222826922765806}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4104189769546278195
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3994724998460912826}
+  m_Layer: 0
+  m_Name: Doctor_Spine1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3994724998460912826
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4104189769546278195}
+  serializedVersion: 2
+  m_LocalRotation: {x: 4.2040046e-26, y: -6.1764064e-14, z: 6.8065546e-13, w: 1}
+  m_LocalPosition: {x: -0, y: 0.4758059, z: -5.1382865e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5385963681940022247}
+  m_Father: {fileID: 7596659228514453178}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4109973000923891991
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5999913770017922147}
+  m_Layer: 0
+  m_Name: Doctor_LeftHandIndex4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5999913770017922147
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4109973000923891991}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.00020274875, y: 0.057663597, z: 0.0000000034679544}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 589374923493686072}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4115403637940289283
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1279177476039890042}
+  m_Layer: 0
+  m_Name: Doctor_RightHandRing4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1279177476039890042
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4115403637940289283}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.00061678595, y: 0.07309717, z: -4.3638693e-11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7323921633299614714}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4277514958865434633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 972029540389682452}
+  m_Layer: 0
+  m_Name: Doctor_LeftHandRing3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &972029540389682452
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4277514958865434633}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0000017558475, y: -0.00016816646, z: -0.0025399455, w: 0.9999968}
+  m_LocalPosition: {x: 0.001053692, y: 0.08276985, z: 1.5278231e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7851767247284383841}
+  m_Father: {fileID: 3563473227802498513}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4555835036355336026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 589374923493686072}
+  m_Layer: 0
+  m_Name: Doctor_LeftHandIndex3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &589374923493686072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4555835036355336026}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0000035031692, y: -0.00035236566, z: -0.012174898, w: 0.99992585}
+  m_LocalPosition: {x: 0.0014401113, y: 0.0691225, z: 0.0000000010758612}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5999913770017922147}
+  m_Father: {fileID: 5531606941807028634}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4832641516040666843
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 441886306873135609}
+  m_Layer: 0
+  m_Name: Doctor_LeftShoulder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &441886306873135609
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4832641516040666843}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.5729887, y: -0.40886313, z: 0.5860111, w: 0.40137997}
+  m_LocalPosition: {x: -0.23641059, y: 0.49827498, z: -0.005620872}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8255533501837003720}
+  m_Father: {fileID: 5385963681940022247}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5019700137261427136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3821903794979483313}
+  m_Layer: 0
+  m_Name: Doctor_RightHandMiddle1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3821903794979483313
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019700137261427136}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.026725898, y: -0.027509643, z: 0.05297711, w: 0.9978589}
+  m_LocalPosition: {x: -0.030686775, y: 0.4502181, z: -0.024545426}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 508481750869202563}
+  m_Father: {fileID: 5354042080240229988}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5059221784393479915
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3487868185342432687}
+  m_Layer: 0
+  m_Name: Doctor_LeftHandPinky3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3487868185342432687
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5059221784393479915}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00000094650966, y: -0.000050268838, z: 0.0034993303, w: 0.9999939}
+  m_LocalPosition: {x: 0.000786899, y: 0.06577017, z: -1.3510543e-11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 390817060800552612}
+  m_Father: {fileID: 5445186850080131930}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5117413019075113987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 527566468019053692}
+  m_Layer: 0
+  m_Name: Doctor_RightHandThumb1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &527566468019053692
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5117413019075113987}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.22081146, y: 0.034684572, z: 0.23862335, w: 0.94503874}
+  m_LocalPosition: {x: -0.06152798, y: 0.14546742, z: 0.043220185}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5140831943763191544}
+  m_Father: {fileID: 5354042080240229988}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5143421635416220222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3406303685629172338}
+  m_Layer: 0
+  m_Name: Doctor_LeftLeg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3406303685629172338
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5143421635416220222}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.025441261, y: -0.00011763313, z: -0.0068200678, w: 0.99965304}
+  m_LocalPosition: {x: 0.0000000042234234, y: 1.530557, z: 0.000000002214349}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8501293625924860165}
+  m_Father: {fileID: 7397028584751558155}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5537016602934158721
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7504311640444188833}
+  m_Layer: 0
+  m_Name: Doctor_Hips
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7504311640444188833
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5537016602934158721}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0000001777094, y: -0.0000009296466, z: 0.000027405444, w: 1}
+  m_LocalPosition: {x: -0.0000134678185, y: 3.4411054, z: -0.052846693}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7397028584751558155}
+  - {fileID: 7083222826922765806}
+  - {fileID: 7596659228514453178}
+  m_Father: {fileID: 3522475245699945698}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5681698059858840352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7600310285391764401}
+  m_Layer: 0
+  m_Name: Doctor_Neck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7600310285391764401
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5681698059858840352}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.014037216, y: 3.943704e-14, z: 2.279497e-13, w: 0.9999015}
+  m_LocalPosition: {x: -0, y: 0.6117505, z: -0.0000000064971406}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 645205977622700631}
+  m_Father: {fileID: 5385963681940022247}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5749856386349343418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3617592850589615353}
+  m_Layer: 0
+  m_Name: Doctor_RightHandMiddle4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3617592850589615353
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5749856386349343418}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.002129819, y: 0.09483791, z: -9.926566e-12}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7093501915171851115}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5923429629536312488
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7596659228514453178}
+  m_Layer: 0
+  m_Name: Doctor_Spine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7596659228514453178
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5923429629536312488}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.014037039, y: 0.0000013142514, z: -0.000027389695, w: 0.9999015}
+  m_LocalPosition: {x: -0, y: 0.40767303, z: -0.011448579}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3994724998460912826}
+  m_Father: {fileID: 7504311640444188833}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6123962529527217354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8501293625924860165}
+  m_Layer: 0
+  m_Name: Doctor_LeftFoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8501293625924860165
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6123962529527217354}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.48484775, y: 0.040327456, z: -0.06804745, w: 0.8710143}
+  m_LocalPosition: {x: 6.5515024e-11, y: 1.2912037, z: -0.000000003583377}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1933038647797995814}
+  m_Father: {fileID: 3406303685629172338}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6163084146367159257
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6283858339895153505}
+  m_Layer: 0
+  m_Name: Doctor_LeftHandRing1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6283858339895153505
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6163084146367159257}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.032078832, y: 0.068809316, z: -0.043355152, w: 0.99617094}
+  m_LocalPosition: {x: -0.04019915, y: 0.4343236, z: -0.018021133}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3563473227802498513}
+  m_Father: {fileID: 293916568860070014}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6242490851064284476
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7083222826922765806}
+  m_Layer: 0
+  m_Name: Doctor_RightUpLeg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7083222826922765806
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6242490851064284476}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0032780902, y: -0.0060451436, z: 0.9999711, w: 0.0032497477}
+  m_LocalPosition: {x: 0.40743977, y: -0.22650215, z: 0.049105134}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7725006949884131441}
+  m_Father: {fileID: 7504311640444188833}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6255068981031069247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8638657728064741245}
+  m_Layer: 0
+  m_Name: Doctor_RightForeArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8638657728064741245
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6255068981031069247}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0000002272262, y: -0.008090924, z: 0.000000051621942, w: 0.9999673}
+  m_LocalPosition: {x: 4.4719597e-10, y: 0.7331665, z: 0.0000000040573287}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5354042080240229988}
+  m_Father: {fileID: 6271949632261184477}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6261954209643918893
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2001657036575746078}
+  m_Layer: 0
+  m_Name: Doctor_RightToe_End
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2001657036575746078
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6261954209643918893}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.943644e-10, y: 0.25465697, z: -6.764543e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 371257416859223640}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6292857057176468100
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7851767247284383841}
+  m_Layer: 0
+  m_Name: Doctor_LeftHandRing4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7851767247284383841
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6292857057176468100}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.00052823866, y: 0.06898921, z: 8.073229e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 972029540389682452}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6564830493726402220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4462802828365074446}
+  m_Layer: 0
+  m_Name: Doctor_RightHandPinky4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4462802828365074446
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6564830493726402220}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.00006915634, y: 0.058985345, z: 9.222731e-11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8170420740299629094}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6620202454339220710
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2186315400150099292}
+  m_Layer: 0
+  m_Name: Doctor_LeftHandMiddle2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2186315400150099292
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6620202454339220710}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00000024342182, y: 0.000006648047, z: 0.00010951446, w: 1}
+  m_LocalPosition: {x: 0.00091427413, y: 0.09055396, z: 0.0000000024242268}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4397554394427675093}
+  m_Father: {fileID: 7155554919970122951}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6946456590157650189
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9129936278147072569}
+  m_Layer: 0
+  m_Name: Doctor_LeftForeArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9129936278147072569
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6946456590157650189}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00000008038915, y: 0.00651794, z: -0.00000050245336, w: 0.9999788}
+  m_LocalPosition: {x: -7.904619e-11, y: 0.7327426, z: 8.984881e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 293916568860070014}
+  m_Father: {fileID: 8255533501837003720}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7006971046108958731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1933038647797995814}
+  m_Layer: 0
+  m_Name: Doctor_LeftToeBase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1933038647797995814
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7006971046108958731}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.26483846, y: -0.008535209, z: 0.002344254, w: 0.9642522}
+  m_LocalPosition: {x: 0.0000000023601936, y: 0.6642088, z: -0.000000009769142}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 934138919194956340}
+  m_Father: {fileID: 8501293625924860165}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7216399935678581188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7323921633299614714}
+  m_Layer: 0
+  m_Name: Doctor_RightHandRing3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7323921633299614714
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7216399935678581188}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0000007848279, y: 0.00007110028, z: 0.0001673162, w: 1}
+  m_LocalPosition: {x: -0.0007276773, y: 0.08295728, z: 2.5495636e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1279177476039890042}
+  m_Father: {fileID: 4722285320884334099}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7422174605268216459
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 300882164819127314}
+  m_Layer: 0
+  m_Name: Doctor_LeftHandThumb2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &300882164819127314
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7422174605268216459}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0022399724, y: 0.021172136, z: 0.02450554, w: 0.999473}
+  m_LocalPosition: {x: 0.009919813, y: 0.12239079, z: -0.0000000020551545}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4895476386264376902}
+  m_Father: {fileID: 3243115263953505375}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7799665570507939831
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6801863222478401245}
+  m_Layer: 0
+  m_Name: Doctor_RightFoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6801863222478401245
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7799665570507939831}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.47933203, y: -0.041470777, z: 0.06861408, w: 0.873964}
+  m_LocalPosition: {x: -0.0000000021839237, y: 1.291534, z: 0.0000000016475017}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 371257416859223640}
+  m_Father: {fileID: 7725006949884131441}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7934244879702643834
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6271949632261184477}
+  m_Layer: 0
+  m_Name: Doctor_RightArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6271949632261184477
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7934244879702643834}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.1746796, y: 0.0012557775, z: -0.000091090784, w: 0.98462456}
+  m_LocalPosition: {x: -9.633198e-11, y: 0.508208, z: -0.0000000023616757}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8638657728064741245}
+  m_Father: {fileID: 7282789100833195372}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8027669811369434561
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1604507534720181938}
+  m_Layer: 0
+  m_Name: Doctor_RightHandIndex2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1604507534720181938
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8027669811369434561}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0000068613494, y: 0.00080780376, z: -0.022830268, w: 0.99973905}
+  m_LocalPosition: {x: 0.0029158455, y: 0.093602456, z: -0.0000000043854884}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5181521483847275183}
+  m_Father: {fileID: 762382003291171884}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8045437303168233575
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7709074735650718637}
+  - component: {fileID: 8863945476486287293}
   m_Layer: 0
   m_Name: doctor
   m_TagString: Untagged
@@ -2173,28 +1949,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7593496987250157591
+--- !u!4 &7709074735650718637
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8543034579101177571}
+  m_GameObject: {fileID: 8045437303168233575}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5006984616812882735}
+  m_Father: {fileID: 748958844504390131}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!137 &2423441506423476908
+--- !u!137 &8863945476486287293
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8543034579101177571}
+  m_GameObject: {fileID: 8045437303168233575}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -2235,65 +2011,65 @@ SkinnedMeshRenderer:
   m_SkinnedMotionVectors: 1
   m_Mesh: {fileID: 8785509643621073757, guid: 72a508df292aac7468e1d9e7d33ae440, type: 3}
   m_Bones:
-  - {fileID: 3562089895563196099}
-  - {fileID: 6095291819579743394}
-  - {fileID: 5496676868387982769}
-  - {fileID: 7091253874787625178}
-  - {fileID: 4175786379399315420}
-  - {fileID: 4088395745293867889}
-  - {fileID: 6920434770847071552}
-  - {fileID: 30239360679592934}
-  - {fileID: 8341455523230634109}
-  - {fileID: 5010891657280360503}
-  - {fileID: 1321102644859935903}
-  - {fileID: 8317135030492451117}
-  - {fileID: 6767988945213625680}
-  - {fileID: 2756913124380440380}
-  - {fileID: 9221301609377055933}
-  - {fileID: 2950845204532715833}
-  - {fileID: 2322204538290684462}
-  - {fileID: 2186166003097802818}
-  - {fileID: 6730897229513987776}
-  - {fileID: 6857335984801303921}
-  - {fileID: 788913642787104517}
-  - {fileID: 6586269815338467800}
-  - {fileID: 5988056539159868551}
-  - {fileID: 2605336217422538472}
-  - {fileID: 8508880636668423319}
-  - {fileID: 3428287287540826996}
-  - {fileID: 5964411489006364340}
-  - {fileID: 5080653025485343584}
-  - {fileID: 3156794256864122452}
-  - {fileID: 5462459006919285273}
-  - {fileID: 4605023085609555568}
-  - {fileID: 2150629262358580763}
-  - {fileID: 7765315037662308575}
-  - {fileID: 4654905296274364904}
-  - {fileID: 6105752472730690848}
-  - {fileID: 1030948212149397147}
-  - {fileID: 8546850726300789445}
-  - {fileID: 7490460341127268320}
-  - {fileID: 3459865480950878312}
-  - {fileID: 2450614697590779293}
-  - {fileID: 1810367656106213027}
-  - {fileID: 6391553990050293068}
-  - {fileID: 4265221860673214784}
-  - {fileID: 4075283633620840841}
-  - {fileID: 1138132574353785290}
-  - {fileID: 6258224679632691827}
-  - {fileID: 858049163883619539}
-  - {fileID: 8674183330231035899}
-  - {fileID: 8752710224411560377}
-  - {fileID: 2583083171443433697}
-  - {fileID: 7342668133219309174}
-  - {fileID: 7070653465803582082}
+  - {fileID: 7600310285391764401}
+  - {fileID: 645205977622700631}
+  - {fileID: 5385963681940022247}
+  - {fileID: 7282789100833195372}
+  - {fileID: 441886306873135609}
+  - {fileID: 6271949632261184477}
+  - {fileID: 8255533501837003720}
+  - {fileID: 8638657728064741245}
+  - {fileID: 3994724998460912826}
+  - {fileID: 7596659228514453178}
+  - {fileID: 7504311640444188833}
+  - {fileID: 7083222826922765806}
+  - {fileID: 7397028584751558155}
+  - {fileID: 5354042080240229988}
+  - {fileID: 3821903794979483313}
+  - {fileID: 527566468019053692}
+  - {fileID: 5140831943763191544}
+  - {fileID: 3231927786724304839}
+  - {fileID: 5941631423429044279}
+  - {fileID: 762382003291171884}
+  - {fileID: 143982263195335290}
+  - {fileID: 1604507534720181938}
+  - {fileID: 3401336165987230777}
+  - {fileID: 508481750869202563}
+  - {fileID: 7093501915171851115}
+  - {fileID: 5181521483847275183}
+  - {fileID: 4722285320884334099}
+  - {fileID: 7323921633299614714}
+  - {fileID: 8170420740299629094}
+  - {fileID: 6801863222478401245}
+  - {fileID: 7725006949884131441}
+  - {fileID: 371257416859223640}
+  - {fileID: 3406303685629172338}
+  - {fileID: 8501293625924860165}
+  - {fileID: 1933038647797995814}
+  - {fileID: 9129936278147072569}
+  - {fileID: 293916568860070014}
+  - {fileID: 3243115263953505375}
+  - {fileID: 4150782314980876654}
+  - {fileID: 6283858339895153505}
+  - {fileID: 7155554919970122951}
+  - {fileID: 300882164819127314}
+  - {fileID: 4895476386264376902}
+  - {fileID: 2895820591822434916}
+  - {fileID: 5445186850080131930}
+  - {fileID: 3563473227802498513}
+  - {fileID: 2186315400150099292}
+  - {fileID: 5531606941807028634}
+  - {fileID: 589374923493686072}
+  - {fileID: 4397554394427675093}
+  - {fileID: 972029540389682452}
+  - {fileID: 3487868185342432687}
   m_BlendShapeWeights: []
-  m_RootBone: {fileID: 1321102644859935903}
+  m_RootBone: {fileID: 7504311640444188833}
   m_AABB:
     m_Center: {x: 0.019539356, y: -0.37059116, z: 0.21012881}
     m_Extent: {x: 3.0107636, y: 3.5543308, z: 1.0862875}
   m_DirtyAABB: 0
---- !u!1 &8555146740788278429
+--- !u!1 &8215871876828530681
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2301,31 +2077,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3156794256864122452}
+  - component: {fileID: 5941631423429044279}
   m_Layer: 0
-  m_Name: Doctor_RightHandPinky3
+  m_Name: Doctor_RightHandPinky1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3156794256864122452
+--- !u!4 &5941631423429044279
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8555146740788278429}
+  m_GameObject: {fileID: 8215871876828530681}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0000006174423, y: -0.00023792926, z: -0.0028349685, w: 0.99999595}
-  m_LocalPosition: {x: 0.0004696625, y: 0.068715304, z: -5.5025595e-10}
+  m_LocalRotation: {x: -0.022972336, y: -0.10875249, z: 0.033529654, w: 0.9932376}
+  m_LocalPosition: {x: 0.08031647, y: 0.39217964, z: -0.019464217}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 6721028408537226736}
-  m_Father: {fileID: 5988056539159868551}
+  - {fileID: 3401336165987230777}
+  m_Father: {fileID: 5354042080240229988}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8938927822412762060
+--- !u!1 &8325367819093357828
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2333,33 +2109,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1321102644859935903}
+  - component: {fileID: 3243115263953505375}
   m_Layer: 0
-  m_Name: Doctor_Hips
+  m_Name: Doctor_LeftHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1321102644859935903
+--- !u!4 &3243115263953505375
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8938927822412762060}
+  m_GameObject: {fileID: 8325367819093357828}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0000001777094, y: -0.0000009296466, z: 0.000027405444, w: 1}
-  m_LocalPosition: {x: -0.0000134678185, y: 3.4411054, z: -0.052846693}
+  m_LocalRotation: {x: 0.21511172, y: -0.04938382, z: -0.21469504, w: 0.95141697}
+  m_LocalPosition: {x: 0.0695431, y: 0.131326, z: 0.038424652}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 6767988945213625680}
-  - {fileID: 8317135030492451117}
-  - {fileID: 5010891657280360503}
-  m_Father: {fileID: 7257237623189983430}
+  - {fileID: 300882164819127314}
+  m_Father: {fileID: 293916568860070014}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8969353421183471017
+--- !u!1 &8703628825766561389
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2367,27 +2141,253 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7070653465803582082}
+  - component: {fileID: 4895476386264376902}
   m_Layer: 0
-  m_Name: Doctor_LeftHandPinky3
+  m_Name: Doctor_LeftHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7070653465803582082
+--- !u!4 &4895476386264376902
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8969353421183471017}
+  m_GameObject: {fileID: 8703628825766561389}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.00000094650966, y: -0.000050268838, z: 0.0034993303, w: 0.9999939}
-  m_LocalPosition: {x: 0.000786899, y: 0.06577017, z: -1.3510543e-11}
+  m_LocalRotation: {x: -0.0001351499, y: 0.0031015656, z: -0.17262973, w: 0.9849819}
+  m_LocalPosition: {x: 0.01657441, y: 0.1268698, z: 0.000000002161096}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 114760163125919752}
-  m_Father: {fileID: 1138132574353785290}
+  - {fileID: 285727345674970735}
+  m_Father: {fileID: 300882164819127314}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8890103633156065289
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 390817060800552612}
+  m_Layer: 0
+  m_Name: Doctor_LeftHandPinky4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &390817060800552612
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8890103633156065289}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.00093062234, y: 0.0490868, z: -2.2070394e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3487868185342432687}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8936634337309249186
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3401336165987230777}
+  m_Layer: 0
+  m_Name: Doctor_RightHandPinky2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3401336165987230777
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8936634337309249186}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00000026722938, y: 0.000031925887, z: 0.00665094, w: 0.9999779}
+  m_LocalPosition: {x: -0.00053881854, y: 0.08340655, z: -2.7880845e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8170420740299629094}
+  m_Father: {fileID: 5941631423429044279}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &9017523476293107821
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5445186850080131930}
+  m_Layer: 0
+  m_Name: Doctor_LeftHandPinky2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5445186850080131930
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9017523476293107821}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0000022479908, y: -0.00046527083, z: 0.017249346, w: 0.9998511}
+  m_LocalPosition: {x: -0.0017175203, y: 0.07622407, z: 1.7030999e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3487868185342432687}
+  m_Father: {fileID: 4150782314980876654}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &9082676446624708137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7282789100833195372}
+  m_Layer: 0
+  m_Name: Doctor_RightShoulder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7282789100833195372
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9082676446624708137}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5794963, y: -0.40486673, z: 0.57983845, w: -0.40503615}
+  m_LocalPosition: {x: 0.23641059, y: 0.49813837, z: -0.0007563903}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6271949632261184477}
+  m_Father: {fileID: 5385963681940022247}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &9128838386655068203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5296444487096248590}
+  m_Layer: 0
+  m_Name: Doctor_HeadTop_End
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5296444487096248590
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9128838386655068203}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.6543823, z: 0.13050279}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 645205977622700631}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &9144777367731217519
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4397554394427675093}
+  m_Layer: 0
+  m_Name: Doctor_LeftHandMiddle3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4397554394427675093
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9144777367731217519}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0000045686156, y: 0.0005706049, z: -0.017591538, w: 0.99984515}
+  m_LocalPosition: {x: 0.00091726164, y: 0.088921346, z: -9.712487e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4260166050519615420}
+  m_Father: {fileID: 2186315400150099292}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &9147856677827740940
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 293916568860070014}
+  m_Layer: 0
+  m_Name: Doctor_LeftHand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &293916568860070014
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9147856677827740940}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.03417113, y: 0.015730016, z: 0.030992476, w: 0.9988115}
+  m_LocalPosition: {x: -8.771634e-10, y: 0.8136779, z: -0.000000009438436}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2895820591822434916}
+  - {fileID: 7155554919970122951}
+  - {fileID: 4150782314980876654}
+  - {fileID: 6283858339895153505}
+  - {fileID: 3243115263953505375}
+  m_Father: {fileID: 9129936278147072569}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
