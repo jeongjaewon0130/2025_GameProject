@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638813460805319360
+      ticks: 638813489100649316
     m_Hash: 3003479633
   m_LockFileStatus:
     m_FilePath: C:/Fork/2025_GameProject/team project/team project/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638813460805330450
+      ticks: 638813489100659795
     m_Hash: 632458336
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
