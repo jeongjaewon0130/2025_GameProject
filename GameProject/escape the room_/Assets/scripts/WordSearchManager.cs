@@ -7,14 +7,14 @@ using UnityEngine.SceneManagement;
 
 public class WordSearchManager : MonoBehaviour
 {
-    [Header("UI ¿ä¼Ò")]
-    public List<Button> wordButtons; // ÆÛÁñ ´Ü¾î ¹öÆ°µé
+    [Header("UI ï¿½ï¿½ï¿½")]
+    public List<Button> wordButtons; // ï¿½ï¿½ï¿½ï¿½ ï¿½Ü¾ï¿½ ï¿½ï¿½Æ°ï¿½ï¿½
     public TextMeshProUGUI timerText;
     public GameObject successPanel;
     public GameObject failPanel;
 
-    [Header("Á¤´ä ¼³Á¤")]
-    public List<string> correctWords = new List<string> { "»êÃ¥", "»ç·á", "¹Ý·Á°ß" };
+    [Header("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½")]
+    public List<string> correctWords = new List<string> { "ï¿½ï¿½Ã¥", "ï¿½ï¿½ï¿½", "ï¿½Ý·ï¿½ï¿½ï¿½" };
 
     private HashSet<string> foundWords = new HashSet<string>();
     private float timeLimit = 60f;
@@ -24,11 +24,11 @@ public class WordSearchManager : MonoBehaviour
 
     void Start()
     {
-        // ÆÐ³ÎÀº Ã³À½¿¡ ¼û±â±â
+        // ï¿½Ð³ï¿½ï¿½ï¿½ Ã³ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½
         successPanel.SetActive(false);
         failPanel.SetActive(false);
 
-        // ¹öÆ° Å¬¸¯ ÀÌº¥Æ® ¿¬°á
+        // ï¿½ï¿½Æ° Å¬ï¿½ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½
         foreach (Button btn in wordButtons)
         {
             string word = btn.GetComponentInChildren<TextMeshProUGUI>().text;
@@ -55,12 +55,12 @@ public class WordSearchManager : MonoBehaviour
         }
         else
         {
-            PuzzleFail(); // ¿À´ä ´©¸£¸é ¹Ù·Î ½ÇÆÐ Ã³¸®
+            PuzzleFail(); // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ù·ï¿½ ï¿½ï¿½ï¿½ï¿½ Ã³ï¿½ï¿½
         }
 
         if (foundWords.Count == correctWords.Count)
         {
-            PuzzleSuccess(); // Á¤´ä ¸ðµÎ Ã£À½
+            PuzzleSuccess(); // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ Ã£ï¿½ï¿½
         }
 
         StartCoroutine(ReturnToMainAfterDelay(2f));
@@ -79,13 +79,13 @@ public class WordSearchManager : MonoBehaviour
         while (timeLeft > 0 && puzzleActive)
         {
             timeLeft -= Time.deltaTime;
-            timerText.text = $"³²Àº ½Ã°£: {Mathf.CeilToInt(timeLeft)}ÃÊ";
+            timerText.text = $"ï¿½ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½: {Mathf.CeilToInt(timeLeft)}ï¿½ï¿½";
             yield return null;
         }
 
         if (puzzleActive && foundWords.Count < correctWords.Count)
         {
-            PuzzleFail(); // ½Ã°£ ÃÊ°ú
+            PuzzleFail(); // ï¿½Ã°ï¿½ ï¿½Ê°ï¿½
         }
     }
 
@@ -93,14 +93,14 @@ public class WordSearchManager : MonoBehaviour
     {
         puzzleActive = false;
         successPanel.SetActive(true);
-        Debug.Log("ÆÛÁñ ¼º°ø! ·ç¹Ì¸¦ ¾ò¾ú½À´Ï´Ù.");
+        Debug.Log("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½! ï¿½ï¿½Ì¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
     }
 
     void PuzzleFail()
     {
         puzzleActive = false;
         failPanel.SetActive(true);
-        Debug.Log("ÆÛÁñ ½ÇÆÐ! ´Ù½Ã µµÀüÇÏ¼¼¿ä.");
+        Debug.Log("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½! ï¿½Ù½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½.");
     }
 
     public void RetryPuzzle()
