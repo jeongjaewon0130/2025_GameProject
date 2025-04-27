@@ -70,7 +70,7 @@ public class ClockController : MonoBehaviour
     {
         if (hours == 5 && minutes == 24)
         {
-            SceneManager.LoadScene("GroundScene");
+            SceneManager.LoadScene("MainScene");
         }
         else
         {

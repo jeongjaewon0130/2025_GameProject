@@ -20,6 +20,8 @@ public class WordSearchManager : MonoBehaviour
     private float timeLimit = 60f;
     private bool puzzleActive = true;
 
+    public string mainSceneName = "MainScene";
+
     void Start()
     {
         // 패널은 처음에 숨기기
@@ -60,6 +62,14 @@ public class WordSearchManager : MonoBehaviour
         {
             PuzzleSuccess(); // 정답 모두 찾음
         }
+
+        StartCoroutine(ReturnToMainAfterDelay(2f));
+    }
+
+    IEnumerator ReturnToMainAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        SceneManager.LoadScene(mainSceneName);
     }
 
     IEnumerator StartTimer()
