@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1397
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
@@ -41,10 +41,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 681
-    width: 1174
+    width: 1178
     height: 666
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -69,7 +69,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1174
+    width: 1178
     height: 1347
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 121
+  controlID: 143
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -192,7 +192,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1174
+    width: 1178
     height: 681
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -219,9 +219,9 @@ MonoBehaviour:
   - {fileID: 11}
   m_Position:
     serializedVersion: 2
-    x: 1174
+    x: 1178
     y: 0
-    width: 351
+    width: 347
     height: 1347
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
@@ -245,7 +245,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 351
+    width: 347
     height: 690
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -271,7 +271,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 690
-    width: 351
+    width: 347
     height: 657
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
@@ -325,8 +325,8 @@ MonoBehaviour:
     y: 0
     width: 655
     height: 1347
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -354,7 +354,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 1173
+    width: 1177
     height: 660
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -662,9 +662,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 465.97253, y: 426.4581, z: 161.36577}
+    m_Target: {x: 0.925234, y: 3.0278225, z: 4.008177}
     speed: 2
-    m_Value: {x: 465.97253, y: 426.4581, z: 161.36577}
+    m_Value: {x: 0.925234, y: 3.0278225, z: 4.008177}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -710,13 +710,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.33011237, y: -0.07827133, z: 0.028211083, w: -0.93993706}
+    m_Target: {x: -0.30422086, y: 0.16121516, z: -0.051722117, w: -0.9371056}
     speed: 2
-    m_Value: {x: -0.33021504, y: -0.07829568, z: 0.028219858, w: -0.9402294}
+    m_Value: {x: -0.3043148, y: 0.16126494, z: -0.051738087, w: -0.937395}
   m_Size:
-    m_Target: 1101.4536
+    m_Target: 1.1726038
     speed: 2
-    m_Value: 1101.4536
+    m_Value: 1.1726038
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -884,7 +884,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 754
-    width: 1173
+    width: 1177
     height: 645
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -938,23 +938,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1173
+      width: 1177
       height: 624
     m_Scale: {x: 0.5777778, y: 0.5777778}
-    m_Translation: {x: 586.5, y: 312}
+    m_Translation: {x: 588.5, y: 312}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1015.0961
+      x: -1018.5577
       y: -540
-      width: 2030.1923
+      width: 2037.1154
       height: 1080
     m_MinimalGUI: 1
   m_defaultScale: 0.5777778
-  m_LastWindowPixelSize: {x: 1173, y: 645}
+  m_LastWindowPixelSize: {x: 1177, y: 645}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -981,9 +981,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1174
+    x: 1178
     y: 73
-    width: 349
+    width: 345
     height: 669
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1000,21 +1000,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 48a0fcfff0a8fcff9ecbfcffb4ddfcffb8ddfcff00e5fcffb4e9fcfffa0efdff7637fdff984efdffd875fdffde83fdffecd1fdffe010feffbc1dfeff6e3efeff5c62feff64d1feffa272ffff9299ffff0ab6ffffccfaffff965d0000fa5d0000ac6f0100808e0100e8ac01000836020028360200
+      m_ExpandedIDs: 6c10ffff8612ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: BOOK FBX
-        m_OriginalName: BOOK FBX
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -210014
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 10}
       m_SearchString: 
@@ -1044,9 +1044,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1174
+    x: 1178
     y: 763
-    width: 349
+    width: 345
     height: 636
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1102,8 +1102,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets/a21o06lfsgzk-Book/Book Textures
+    m_Folders: []
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1112,15 +1111,15 @@ MonoBehaviour:
   m_StartGridSize: 16
   m_LastFolders: []
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: "D:\\\uC804\uCCB4\\\uD559\uAD50 \uACFC\uC81C\\\uC0C8 \uD3F4\uB354\\2025_GameProject-main\\GameProject\\escape
-    the room_"
+  m_LastProjectPath: "D:\\\uC804\uCCB4\\\uD5C8\uBE0C,\uC791\uC5C5\\\uC791\uC5C5\\\uC0C8
+    \uD3F4\uB354\\2025_GameProject-main\\GameProject\\escape the room_"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 401f0000
     m_LastClickedID: 8000
-    m_ExpandedIDs: 0000000030640000326400003464000036640000386400003a6400003c6400003e64000040640000426400004464000046640000486400004a6400004c6400004e64000050640000526400005464000056640000
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1148,21 +1147,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 3270feffffffffff0000000030640000326400003464000036640000386400003a6400003c6400003e64000040640000426400004464000046640000486400004a6400004e64000050640000526400005464000056640000be640000e8a40000d4a5000078a600007ca600009ea60000180c0100240c01001a14010088140100c4150100c815010004160100081601000c1601002016010024160100281601009a160100b2e60100dee6010088e70100
+    m_ExpandedIDs: fffffffffa050000a6060000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Puzzle6
-      m_OriginalName: Puzzle6
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 95018
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 12}
     m_SearchString: 
