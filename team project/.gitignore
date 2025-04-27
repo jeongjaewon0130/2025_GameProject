@@ -1,0 +1,27 @@
+# Unity cache and build directories
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+MemoryCaptures/
+
+# User-specific files
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.pidb
+*.suo
+
+# Android/iOS build files
+*.apk
+*.aab
+
+# Unity Package Manager
+Packages/
+
+# IDE-specific files
+.idea/
+.vscode/
