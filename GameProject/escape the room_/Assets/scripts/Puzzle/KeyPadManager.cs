@@ -6,7 +6,7 @@ using UnityEngine.LowLevel;
 
 public class KeyPadManager : MonoBehaviour
 {
-    public PlayerMove playerMove;
+    public SC_FPSController playerMove;
     public Animator doorAnimator;
     public CameraRot cameraRot;
 
@@ -54,7 +54,7 @@ public class KeyPadManager : MonoBehaviour
             playerMove.SetCanMove(false);
 
         if (cameraRot != null)
-            cameraRot.enabled = false;
+            cameraRot.SetCanLook(false);
     }
 
     public void CloseUI()
@@ -70,7 +70,7 @@ public class KeyPadManager : MonoBehaviour
             playerMove.SetCanMove(true);
 
         if (cameraRot != null)
-            cameraRot.enabled = true;
+            cameraRot.SetCanLook(true);
     }
 
     public void AddDigit(string digit)

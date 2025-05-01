@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class WordSearchManager : MonoBehaviour
 {
     [Header("UI 요소")]
-    public List<Button> wordButtons; // 퍼즐 단어 버튼들
+    public List<Button> wordButtons;
     public TextMeshProUGUI timerText;
     public GameObject successPanel;
     public GameObject failPanel;
@@ -20,15 +20,14 @@ public class WordSearchManager : MonoBehaviour
     private float timeLimit = 60f;
     private bool puzzleActive = true;
 
-    public string mainSceneName = "MainScene";
+    [Header("씬 설정")]
+    public string nextSceneName = "MainScene"; // 퍼즐 성공 시 이동할 씬 이름
 
     void Start()
     {
-        // 패널은 처음에 숨기기
         successPanel.SetActive(false);
         failPanel.SetActive(false);
 
-        // 버튼 클릭 이벤트 연결
         foreach (Button btn in wordButtons)
         {
             string word = btn.GetComponentInChildren<TextMeshProUGUI>().text;
@@ -52,24 +51,16 @@ public class WordSearchManager : MonoBehaviour
             foundWords.Add(word);
             btn.interactable = false;
             btn.GetComponent<Image>().color = Color.green;
+
+            if (foundWords.Count == correctWords.Count)
+            {
+                PuzzleSuccess();
+            }
         }
         else
         {
-            PuzzleFail(); // 오답 누르면 바로 실패 처리
+            PuzzleFail();
         }
-
-        if (foundWords.Count == correctWords.Count)
-        {
-            PuzzleSuccess(); // 정답 모두 찾음
-        }
-
-        StartCoroutine(ReturnToMainAfterDelay(2f));
-    }
-
-    IEnumerator ReturnToMainAfterDelay(float delay)
-    {
-        yield return new WaitForSeconds(delay);
-        SceneManager.LoadScene(mainSceneName);
     }
 
     IEnumerator StartTimer()
@@ -85,7 +76,7 @@ public class WordSearchManager : MonoBehaviour
 
         if (puzzleActive && foundWords.Count < correctWords.Count)
         {
-            PuzzleFail(); // 시간 초과
+            PuzzleFail();
         }
     }
 
@@ -94,6 +85,7 @@ public class WordSearchManager : MonoBehaviour
         puzzleActive = false;
         successPanel.SetActive(true);
         Debug.Log("퍼즐 성공! 루미를 얻었습니다.");
+        StartCoroutine(GoToNextSceneAfterDelay(2f)); // 2초 후 다음 씬으로 이동
     }
 
     void PuzzleFail()
@@ -101,10 +93,17 @@ public class WordSearchManager : MonoBehaviour
         puzzleActive = false;
         failPanel.SetActive(true);
         Debug.Log("퍼즐 실패! 다시 도전하세요.");
+        // 실패 시에는 씬을 유지하고 UI에서 재시도 버튼만 활성화
+    }
+
+    IEnumerator GoToNextSceneAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        SceneManager.LoadScene(nextSceneName);
     }
 
     public void RetryPuzzle()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // 현재 씬 리셋
     }
 }

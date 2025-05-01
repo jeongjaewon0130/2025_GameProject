@@ -7,7 +7,7 @@ public class HintPaper : MonoBehaviour
     public GameObject hintUI;
     public GameObject interactText;
 
-    public PlayerMove playerMove;
+    public SC_FPSController playerMove;
     public CameraRot cameraRot;
     private MouseCursor playerLook;
 
@@ -46,7 +46,7 @@ public class HintPaper : MonoBehaviour
             playerMove.SetCanMove(false);
 
         if (cameraRot != null)
-            cameraRot.enabled = false;
+            cameraRot.SetCanLook(false);
     }
 
     public void CloseUI()
@@ -63,7 +63,7 @@ public class HintPaper : MonoBehaviour
             playerMove.SetCanMove(true);
 
         if (cameraRot != null)
-            cameraRot.enabled = true;
+            cameraRot.SetCanLook(true);
     }
 
     void OnTriggerEnter(Collider other)
