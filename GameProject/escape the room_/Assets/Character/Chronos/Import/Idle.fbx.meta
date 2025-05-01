@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 83cb9cc77951e7d489d85329021a1d50
+guid: 1954aecaaffb98f45890beea8fea32d4
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -528,13 +528,13 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: Idle(Clone)
+    - name: Idle 1(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Doctor_Hips
-      parentName: Idle(Clone)
+      parentName: Idle 1(Clone)
       position: {x: 0.0027736586, y: 3.372491, z: -0.032246526}
       rotation: {x: -0.025339989, y: 0.0105916215, z: 0.010443079, w: 0.9995682}
       scale: {x: 1, y: 1, z: 1}
