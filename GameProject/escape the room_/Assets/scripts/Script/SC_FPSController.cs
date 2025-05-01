@@ -95,6 +95,16 @@ public class SC_FPSController : MonoBehaviour
         }
     }
 
+    public void DisableMovement()
+    {
+        canMove = false;
+    }
+
+    // 퍼즐 종료 시 이동 허용
+    public void EnableMovement()
+    {
+        canMove = true;
+    }
     // ✅ 추가 함수: 카메라 시각 초기화 (흑백 방지)
     void ResetCameraSettings()
     {

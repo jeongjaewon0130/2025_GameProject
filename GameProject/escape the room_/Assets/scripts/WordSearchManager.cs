@@ -1,4 +1,4 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections;
@@ -7,21 +7,18 @@ using UnityEngine.SceneManagement;
 
 public class WordSearchManager : MonoBehaviour
 {
-    [Header("UI ¿ä¼Ò")]
+    [Header("UI ìš”ì†Œ")]
     public List<Button> wordButtons;
     public TextMeshProUGUI timerText;
     public GameObject successPanel;
     public GameObject failPanel;
 
-    [Header("Á¤´ä ¼³Á¤")]
-    public List<string> correctWords = new List<string> { "»êÃ¥", "»ç·á", "¹İ·Á°ß" };
+    [Header("ì •ë‹µ ì„¤ì •")]
+    public List<string> correctWords = new List<string> { "ì‚°ì±…", "ì‚¬ë£Œ", "ë°˜ë ¤ê²¬" };
 
     private HashSet<string> foundWords = new HashSet<string>();
     private float timeLimit = 60f;
     private bool puzzleActive = true;
-
-    [Header("¾À ¼³Á¤")]
-    public string nextSceneName = "MainScene"; // ÆÛÁñ ¼º°ø ½Ã ÀÌµ¿ÇÒ ¾À ÀÌ¸§
 
     void Start()
     {
@@ -70,7 +67,7 @@ public class WordSearchManager : MonoBehaviour
         while (timeLeft > 0 && puzzleActive)
         {
             timeLeft -= Time.deltaTime;
-            timerText.text = $"³²Àº ½Ã°£: {Mathf.CeilToInt(timeLeft)}ÃÊ";
+            timerText.text = $"ë‚¨ì€ ì‹œê°„: {Mathf.CeilToInt(timeLeft)}ì´ˆ";
             yield return null;
         }
 
@@ -84,26 +81,68 @@ public class WordSearchManager : MonoBehaviour
     {
         puzzleActive = false;
         successPanel.SetActive(true);
-        Debug.Log("ÆÛÁñ ¼º°ø! ·ç¹Ì¸¦ ¾ò¾ú½À´Ï´Ù.");
-        StartCoroutine(GoToNextSceneAfterDelay(2f)); // 2ÃÊ ÈÄ ´ÙÀ½ ¾ÀÀ¸·Î ÀÌµ¿
+        Debug.Log("í¼ì¦ ì„±ê³µ! ë£¨ë¯¸ë¥¼ ì–»ì—ˆìŠµë‹ˆë‹¤.");
+
+        // í¼ì¦ ì¢…ë£Œ í›„ ë§ˆìš°ìŠ¤ ì»¤ì„œ ìˆ¨ê¸°ê¸°
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+
+        // ì´ë™ ë¹„í™œì„±í™”
+        FindObjectOfType<SC_FPSController>().DisableMovement();
+
+        // ë¬¸ ì—´ê¸°
+        FindObjectOfType<Puzzle7>().OpenDoor();
+
+        StartCoroutine(ExitPuzzleAfterDelay(2f));
     }
 
     void PuzzleFail()
     {
         puzzleActive = false;
         failPanel.SetActive(true);
-        Debug.Log("ÆÛÁñ ½ÇÆĞ! ´Ù½Ã µµÀüÇÏ¼¼¿ä.");
-        // ½ÇÆĞ ½Ã¿¡´Â ¾ÀÀ» À¯ÁöÇÏ°í UI¿¡¼­ Àç½Ãµµ ¹öÆ°¸¸ È°¼ºÈ­
+        Debug.Log("í¼ì¦ ì‹¤íŒ¨! ë‹¤ì‹œ ë„ì „í•˜ì„¸ìš”.");
+        // ì‹¤íŒ¨ ì‹œì—ëŠ” ì”¬ì„ ìœ ì§€í•˜ê³  UIì—ì„œ ì¬ì‹œë„ ë²„íŠ¼ë§Œ í™œì„±í™”
+        FindObjectOfType<SC_FPSController>().DisableMovement();
     }
 
-    IEnumerator GoToNextSceneAfterDelay(float delay)
+    IEnumerator ExitPuzzleAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
-        SceneManager.LoadScene(nextSceneName);
+
+        // ì›ë˜ ì”¬ í™œì„±í™”
+        Scene originalScene = SceneManager.GetSceneByName("Scene 1-1");
+        if (originalScene.IsValid() && originalScene.isLoaded)
+        {
+            SceneManager.SetActiveScene(originalScene);
+        }
+
+        // í¼ì¦ ì”¬ ì–¸ë¡œë“œ
+        SceneManager.UnloadSceneAsync("Puzzle1Scene");
+
+        // ì”¬ ì „í™˜ í›„ ë§ˆìš°ìŠ¤ ì»¤ì„œ ë° í™”ë©´ ì ê¸ˆ ë³µêµ¬
+        Cursor.visible = false;  // ë§ˆìš°ìŠ¤ ì»¤ì„œ ìˆ¨ê¸°ê¸°
+        Cursor.lockState = CursorLockMode.Locked;  // ë§ˆìš°ìŠ¤ ì»¤ì„œ ì ê¸ˆ
+
+        // ì´ë™ í™œì„±í™”
+        FindObjectOfType<SC_FPSController>().EnableMovement();
     }
 
     public void RetryPuzzle()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // ÇöÀç ¾À ¸®¼Â
+        // ì”¬ ë¦¬ì…‹ ì œê±°
+        foundWords.Clear();
+        puzzleActive = true;
+        timerText.text = $"ë‚¨ì€ ì‹œê°„: {Mathf.CeilToInt(timeLimit)}ì´ˆ";
+
+        successPanel.SetActive(false);
+        failPanel.SetActive(false);
+
+        foreach (Button btn in wordButtons)
+        {
+            btn.interactable = true;
+            btn.GetComponent<Image>().color = Color.white;
+        }
+
+        StartCoroutine(StartTimer());
     }
 }

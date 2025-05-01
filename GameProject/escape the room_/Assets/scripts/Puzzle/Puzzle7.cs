@@ -10,6 +10,9 @@ public class Puzzle7 : MonoBehaviour
     public GameObject interactUI;
     private bool isPlayerNear = false;
 
+    public GameObject door;
+    public Animator doorAnimator;
+
     void Start()
     {
         if (interactUI != null)
@@ -22,7 +25,8 @@ public class Puzzle7 : MonoBehaviour
         {
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
-            SceneManager.LoadScene(puzzle_1);
+            SceneManager.LoadScene("Puzzle1Scene", LoadSceneMode.Additive);
+
         }
     }
 
@@ -43,6 +47,19 @@ public class Puzzle7 : MonoBehaviour
             isPlayerNear = false;
             if (interactUI != null)
                 interactUI.SetActive(false);
+        }
+    }
+
+    public void OpenDoor()
+    {
+        if (door != null)
+        {
+            door.SetActive(true);
+        }
+
+        if (doorAnimator != null)
+        {
+            doorAnimator.SetTrigger("Open");
         }
     }
 }

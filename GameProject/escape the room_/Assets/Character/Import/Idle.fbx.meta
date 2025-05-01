@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: b5a5d0acf13925e4aac9c389137d0e0a
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      internalID: 1827226128182048838
+      firstFrame: 0
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Idle(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_Hips
+      parentName: Idle(Clone)
+      position: {x: 0.0033663558, y: 3.372993, z: -0.025464177}
+      rotation: {x: -0.0286044, y: 0.012841167, z: 0.011873365, w: 0.9994378}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_Spine
+      parentName: Doctor_Hips
+      position: {x: -0, y: 0.407673, z: -0.011448999}
+      rotation: {x: -0.000877238, y: 0.0028405304, z: -0.0010198634, w: 0.99999505}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_Spine1
+      parentName: Doctor_Spine
+      position: {x: -0, y: 0.475806, z: 0}
+      rotation: {x: 0.015928265, y: 0.02828582, z: -0.0031299456, w: 0.9994681}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_Spine2
+      parentName: Doctor_Spine1
+      position: {x: -0, y: 0.543778, z: 0}
+      rotation: {x: 0.015738007, y: 0.028200828, z: -0.0039257826, w: 0.9994707}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_Neck
+      parentName: Doctor_Spine2
+      position: {x: -0, y: 0.61175, z: 0}
+      rotation: {x: 0.019846829, y: -0.01873973, z: 0.011330017, w: 0.9995632}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_Head
+      parentName: Doctor_Neck
+      position: {x: -0, y: 0.467186, z: 0.09317}
+      rotation: {x: 0.044089742, y: -0.0043642675, z: -0.034947176, w: 0.9984066}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_HeadTop_End
+      parentName: Doctor_Head
+      position: {x: -0, y: 0.654382, z: 0.130503}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftShoulder
+      parentName: Doctor_Spine2
+      position: {x: -0.23641099, y: 0.49827498, z: -0.0056209997}
+      rotation: {x: 0.5401297, y: -0.43462542, z: 0.60673624, w: 0.3888853}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftArm
+      parentName: Doctor_LeftShoulder
+      position: {x: -0, y: 0.508208, z: 0}
+      rotation: {x: -0.14768663, y: -0.24986354, z: 0.03059894, w: 0.95646256}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftForeArm
+      parentName: Doctor_LeftArm
+      position: {x: -0, y: 0.73274297, z: 0}
+      rotation: {x: -0.00908914, y: 0.00064457936, z: -0.02345478, w: 0.9996834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftHand
+      parentName: Doctor_LeftForeArm
+      position: {x: -0, y: 0.81367797, z: 0}
+      rotation: {x: 0.115680404, y: 0.0241694, z: 0.15058132, w: 0.9815086}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftHandThumb1
+      parentName: Doctor_LeftHand
+      position: {x: 0.069543, y: 0.13132599, z: 0.038425}
+      rotation: {x: -0.115655, y: 0.0644506, z: -0.3140997, w: 0.9401124}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftHandThumb2
+      parentName: Doctor_LeftHandThumb1
+      position: {x: 0.009919999, y: 0.122391, z: 0}
+      rotation: {x: -0.0017862916, y: 0.022275817, z: 0.0609707, w: 0.9978894}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftHandThumb3
+      parentName: Doctor_LeftHandThumb2
+      position: {x: 0.016574, y: 0.12687, z: 0}
+      rotation: {x: -0.025462225, y: 0.0020005812, z: -0.15858695, w: 0.98701465}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftHandThumb4
+      parentName: Doctor_LeftHandThumb3
+      position: {x: -0.026494, y: 0.120114, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftHandIndex1
+      parentName: Doctor_LeftHand
+      position: {x: 0.09557, y: 0.480774, z: -0.0024299999}
+      rotation: {x: 0.043685954, y: 0.02351695, z: -0.03249005, w: 0.99823993}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftHandIndex2
+      parentName: Doctor_LeftHandIndex1
+      position: {x: -0.001237, y: 0.075337, z: 0}
+      rotation: {x: 0.025614904, y: 0.00009131429, z: 0.025002096, w: 0.99935925}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftHandIndex3
+      parentName: Doctor_LeftHandIndex2
+      position: {x: 0.0014399999, y: 0.069122, z: 0}
+      rotation: {x: 0.037215486, y: -0.00067455374, z: -0.002890053, w: 0.99930286}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftHandIndex4
+      parentName: Doctor_LeftHandIndex3
+      position: {x: -0.000203, y: 0.057663996, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftHandMiddle1
+      parentName: Doctor_LeftHand
+      position: {x: 0.029263, y: 0.462613, z: -0.03126}
+      rotation: {x: 0.039024048, y: 0.058023714, z: -0.006391226, w: 0.9975318}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftHandMiddle2
+      parentName: Doctor_LeftHandMiddle1
+      position: {x: 0.000914, y: 0.090554, z: 0}
+      rotation: {x: 0.03004805, y: -0.00030000502, z: 0.010311146, w: 0.9994952}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftHandMiddle3
+      parentName: Doctor_LeftHandMiddle2
+      position: {x: 0.000917, y: 0.088921, z: 0}
+      rotation: {x: 0.0378243, y: 0.0008454432, z: -0.004713758, w: 0.99927294}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftHandMiddle4
+      parentName: Doctor_LeftHandMiddle3
+      position: {x: -0.001832, y: 0.07364, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftHandRing1
+      parentName: Doctor_LeftHand
+      position: {x: -0.040198997, y: 0.434324, z: -0.018020999}
+      rotation: {x: 0.034454867, y: 0.063899055, z: -0.02280583, w: 0.99710065}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftHandRing2
+      parentName: Doctor_LeftHandRing1
+      position: {x: -0.0015819999, y: 0.08231, z: 0}
+      rotation: {x: 0.035533797, y: -0.00018484883, z: 0.028470946, w: 0.9989629}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftHandRing3
+      parentName: Doctor_LeftHandRing2
+      position: {x: 0.001054, y: 0.082770005, z: 0}
+      rotation: {x: 0.02216003, y: -0.00039394645, z: 0.0052503254, w: 0.9997406}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftHandRing4
+      parentName: Doctor_LeftHandRing3
+      position: {x: 0.000528, y: 0.068989, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftHandPinky1
+      parentName: Doctor_LeftHand
+      position: {x: -0.084634, y: 0.37661597, z: -0.01733}
+      rotation: {x: 0.03153901, y: 0.08043107, z: -0.021452585, w: 0.99603015}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftHandPinky2
+      parentName: Doctor_LeftHandPinky1
+      position: {x: -0.001718, y: 0.076224, z: 0}
+      rotation: {x: 0.033884794, y: -0.006678848, z: 0.023812644, w: 0.99911976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftHandPinky3
+      parentName: Doctor_LeftHandPinky2
+      position: {x: 0.00078699994, y: 0.06577, z: 0}
+      rotation: {x: -0.027631612, y: 0.00037708887, z: -0.007782226, w: 0.99958783}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftHandPinky4
+      parentName: Doctor_LeftHandPinky3
+      position: {x: 0.00093099993, y: 0.049087, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_RightShoulder
+      parentName: Doctor_Spine2
+      position: {x: 0.23641099, y: 0.498138, z: -0.000756}
+      rotation: {x: 0.60727453, y: 0.3960115, z: -0.5420764, w: 0.4249067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_RightArm
+      parentName: Doctor_RightShoulder
+      position: {x: -0, y: 0.508208, z: 0}
+      rotation: {x: -0.14710918, y: 0.18832532, z: -0.028466847, w: 0.9706091}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_RightForeArm
+      parentName: Doctor_RightArm
+      position: {x: -0, y: 0.733167, z: 0}
+      rotation: {x: -0.010437398, y: -0.0023104546, z: 0.023670739, w: 0.99966264}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_RightHand
+      parentName: Doctor_RightForeArm
+      position: {x: -0, y: 0.82183, z: 0}
+      rotation: {x: 0.014431623, y: -0.05545813, z: -0.16552366, w: 0.9845395}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_RightHandThumb1
+      parentName: Doctor_RightHand
+      position: {x: -0.061528, y: 0.145467, z: 0.04322}
+      rotation: {x: -0.0688301, y: -0.027658377, z: 0.3427847, w: 0.93648076}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_RightHandThumb2
+      parentName: Doctor_RightHandThumb1
+      position: {x: -0.005333, y: 0.130892, z: 0}
+      rotation: {x: -0.0015606133, y: 0.013116244, z: -0.08595963, w: 0.99621105}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_RightHandThumb3
+      parentName: Doctor_RightHandThumb2
+      position: {x: -0.017856998, y: 0.12812199, z: 0}
+      rotation: {x: -0.029305745, y: 0.00019359523, z: 0.15921803, w: 0.98680836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_RightHandThumb4
+      parentName: Doctor_RightHandThumb3
+      position: {x: 0.023189, y: 0.11812399, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_RightHandIndex1
+      parentName: Doctor_RightHand
+      position: {x: -0.093261, y: 0.458134, z: -0.004884}
+      rotation: {x: 0.04390791, y: -0.011776533, z: 0.008651181, w: 0.9989287}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_RightHandIndex2
+      parentName: Doctor_RightHandIndex1
+      position: {x: 0.0029159999, y: 0.093601994, z: 0}
+      rotation: {x: 0.025912754, y: 0.00059188623, z: -0.028377935, w: 0.99926126}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_RightHandIndex3
+      parentName: Doctor_RightHandIndex2
+      position: {x: -0.00123, y: 0.08469699, z: 0}
+      rotation: {x: 0.039358303, y: 0.00037163225, z: -0.011751501, w: 0.999156}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_RightHandIndex4
+      parentName: Doctor_RightHandIndex3
+      position: {x: -0.0016859999, y: 0.079586, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_RightHandMiddle1
+      parentName: Doctor_RightHand
+      position: {x: -0.030687, y: 0.450218, z: -0.024544999}
+      rotation: {x: 0.04930217, y: -0.026030907, z: 0.030890929, w: 0.99796665}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_RightHandMiddle2
+      parentName: Doctor_RightHandMiddle1
+      position: {x: 0.0038929998, y: 0.106455, z: 0}
+      rotation: {x: 0.027952492, y: 0.0012038257, z: -0.03368898, w: 0.9990407}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_RightHandMiddle3
+      parentName: Doctor_RightHandMiddle2
+      position: {x: -0.001764, y: 0.101773, z: 0}
+      rotation: {x: 0.03996848, y: -0.008353218, z: -0.012236678, w: 0.9990911}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_RightHandMiddle4
+      parentName: Doctor_RightHandMiddle3
+      position: {x: -0.00213, y: 0.094838, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_RightHandRing1
+      parentName: Doctor_RightHand
+      position: {x: 0.043631, y: 0.45004797, z: -0.012357}
+      rotation: {x: 0.049349025, y: -0.070442505, z: 0.031554695, w: 0.99579453}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_RightHandRing2
+      parentName: Doctor_RightHandRing1
+      position: {x: 0.0013439999, y: 0.088345, z: 0}
+      rotation: {x: 0.030891974, y: 0.00043989718, z: -0.022104427, w: 0.99927825}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_RightHandRing3
+      parentName: Doctor_RightHandRing2
+      position: {x: -0.000728, y: 0.082957, z: 0}
+      rotation: {x: 0.036059245, y: -0.009587929, z: -0.011533389, w: 0.9992371}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_RightHandRing4
+      parentName: Doctor_RightHandRing3
+      position: {x: -0.000617, y: 0.073097, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_RightHandPinky1
+      parentName: Doctor_RightHand
+      position: {x: 0.080316, y: 0.39217997, z: -0.019464}
+      rotation: {x: 0.049225084, y: -0.11855497, z: 0.023657946, w: 0.99144435}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_RightHandPinky2
+      parentName: Doctor_RightHandPinky1
+      position: {x: -0.000539, y: 0.083407, z: 0}
+      rotation: {x: 0.031150449, y: 0.000025749203, z: -0.0065566213, w: 0.9994932}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_RightHandPinky3
+      parentName: Doctor_RightHandPinky2
+      position: {x: 0.00046999997, y: 0.068715, z: 0}
+      rotation: {x: 0.017664898, y: -0.0003085033, z: -0.010326281, w: 0.9997906}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_RightHandPinky4
+      parentName: Doctor_RightHandPinky3
+      position: {x: 0.000068999994, y: 0.058985, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftUpLeg
+      parentName: Doctor_Hips
+      position: {x: -0.40743998, y: -0.226502, z: 0.043821}
+      rotation: {x: -0.03950734, y: 0.040600695, z: 0.9978356, w: 0.03339113}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftLeg
+      parentName: Doctor_LeftUpLeg
+      position: {x: -0, y: 1.5305569, z: 0}
+      rotation: {x: -0.21769467, y: 0.0793315, z: -0.029768502, w: 0.97233194}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftFoot
+      parentName: Doctor_LeftLeg
+      position: {x: -0, y: 1.2912041, z: 0}
+      rotation: {x: 0.5847873, y: 0.025281373, z: -0.0022117586, w: 0.8107896}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftToeBase
+      parentName: Doctor_LeftFoot
+      position: {x: -0, y: 0.66420895, z: 0}
+      rotation: {x: 0.2655042, y: -0.008432989, z: 0.002305716, w: 0.9640701}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftToe_End
+      parentName: Doctor_LeftToeBase
+      position: {x: -0, y: 0.259456, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_RightUpLeg
+      parentName: Doctor_Hips
+      position: {x: 0.40743998, y: -0.226502, z: 0.049105}
+      rotation: {x: 0.08011628, y: 0.032766446, z: 0.99576217, w: -0.031073226}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_RightLeg
+      parentName: Doctor_RightUpLeg
+      position: {x: -0, y: 1.530213, z: 0}
+      rotation: {x: -0.17926824, y: -0.0261631, z: 0.021417899, w: 0.9832191}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_RightFoot
+      parentName: Doctor_RightLeg
+      position: {x: -0, y: 1.291534, z: 0}
+      rotation: {x: 0.5498832, y: -0.057697553, z: 0.011251914, w: 0.83317035}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_RightToeBase
+      parentName: Doctor_RightFoot
+      position: {x: -0, y: 0.654297, z: 0}
+      rotation: {x: 0.26934543, y: 0.008619819, z: -0.0024100707, w: 0.9630021}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_RightToe_End
+      parentName: Doctor_RightToeBase
+      position: {x: -0, y: 0.254657, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
