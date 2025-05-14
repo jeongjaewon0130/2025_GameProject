@@ -385,6 +385,7 @@
 "Assets/scripts/Outside of game/StartSceneTransition.cs"
 "Assets/scripts/Player/ObjectInteraction.cs"
 "Assets/scripts/Player/PlayerMove.cs"
+"Assets/scripts/Player/PlayerMovem.cs"
 "Assets/scripts/Puzle1Mnger.cs"
 "Assets/scripts/Puzzle/BtnPuzzleManager.cs"
 "Assets/scripts/Puzzle/DoorDontroller.cs"

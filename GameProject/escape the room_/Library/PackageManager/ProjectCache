@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638824655007713839
+      ticks: 638828243058301500
     m_Hash: 2030221154
   m_LockFileStatus:
     m_FilePath: C:/Fork/2025_GameProject/GameProject/escape the room_/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638824655007721618
+      ticks: 638828243058301500
     m_Hash: 1443546567
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}

@@ -134,6 +134,7 @@
     <Compile Include="Assets\scripts\WordSearchManager.cs" />
     <Compile Include="Assets\scripts\ClockController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\scripts\Player\PlayerMovem.cs" />
     <Compile Include="Assets\scripts\Puzzle\Lock\DialButtonHandler.cs" />
     <Compile Include="Assets\scripts\Script\DoorTrigge.cs" />
     <Compile Include="Assets\scripts\Puzzle\BtnPuzzleManager.cs" />
