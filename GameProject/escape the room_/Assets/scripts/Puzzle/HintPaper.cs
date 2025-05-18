@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class HintPaper : MonoBehaviour
 {
     public GameObject hintUI;
     public GameObject interactText;
+
+    public TextAsset hintJson;
 
     public SC_FPSController playerMove;
     public CameraRot cameraRot;
@@ -13,9 +16,30 @@ public class HintPaper : MonoBehaviour
 
     private bool isPlayerNearby = false;
 
+    private HintEntry[] hintEntries;
+
+
     void Start()
     {
         playerLook = FindObjectOfType<MouseCursor>();
+
+        LoadHintData();
+    }
+
+    void LoadHintData()
+    {
+        if (hintJson == null)
+        {
+            Debug.LogError("Hint JSON 파일이 할당되지 않았습니다.");
+            return;
+        }
+
+        // JSON은 배열만 있어서 Unity JsonUtility는 감싸주는 클래스가 필요함
+        string wrappedJson = "{\"entries\":" + hintJson.text + "}";
+
+        HintEntryArray data = JsonUtility.FromJson<HintEntryArray>(wrappedJson);
+        hintEntries = data.entries;
+
     }
 
     void Update()
@@ -83,5 +107,20 @@ public class HintPaper : MonoBehaviour
             interactText.SetActive(false);
             CloseUI();
         }
+    }
+
+    [System.Serializable]
+    public class HintEntry
+    {
+        public string hintTitle;
+        public string time;
+        public string eventText;
+        public int buttonIndex;
+    }
+
+    [System.Serializable]
+    public class HintEntryArray
+    {
+        public HintEntry[] entries;
     }
 }
