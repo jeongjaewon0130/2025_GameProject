@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Doctor : MonoBehaviour
+public class DoctorAnimation: MonoBehaviour
 {
     public Animator animator;             // Animator 연결
     public float walkDuration = 4f;       // Walk 애니메이션 2번 길이 (예: 2초짜리 Walk * 2 = 4초)
