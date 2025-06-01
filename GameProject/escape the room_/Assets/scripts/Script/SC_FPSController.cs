@@ -22,6 +22,37 @@ public class SC_FPSController : MonoBehaviour
     [HideInInspector]
     public bool canMove = true;
 
+    private float currentMouseX = 0;
+    private float currentMouseY = 0;
+
+    public bool lockLookInput = false;
+
+    Quaternion savedRotation;
+    float savedRotationX;
+
+    public void SaveCameraStateAndFreeze()
+    {
+        // 카메라 회전 저장
+        savedRotation = playerCamera.transform.rotation;
+        savedRotationX = rotationX;
+
+        // 마우스 입력 멈춤
+        canMove = false;
+        lockLookInput = true;
+    }
+
+    public void RestoreCameraState()
+    {
+        // 회전 복원
+        rotationX = savedRotationX;
+        playerCamera.transform.rotation = savedRotation;
+
+        // 마우스 입력 다시 허용
+        canMove = true;
+        lockLookInput = false;
+    }
+
+
     void Start()
     {
         characterController = GetComponent<CharacterController>();
@@ -39,6 +70,17 @@ public class SC_FPSController : MonoBehaviour
 
     void Update()
     {
+        if (canMove)
+        {
+            currentMouseX = lockLookInput ? 0 : Input.GetAxis("Mouse X");
+            currentMouseY = lockLookInput ? 0 : Input.GetAxis("Mouse Y");
+
+            rotationX += -currentMouseY * lookSpeed;
+            rotationX = Mathf.Clamp(rotationX, -lookXLimit, lookXLimit);
+            playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
+            transform.rotation *= Quaternion.Euler(0, currentMouseX * lookSpeed, 0);
+        }
+
         // 움직임 처리
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         Vector3 right = transform.TransformDirection(Vector3.right);
@@ -94,6 +136,19 @@ public class SC_FPSController : MonoBehaviour
             }
         }
     }
+
+    public float GetRotationX()
+    {
+        return rotationX;
+    }
+
+    public void SetRotationX(float value)
+    {
+        rotationX = value;
+        if (playerCamera != null)
+            playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
+    }
+
 
     public void DisableMovement()
     {

@@ -8,6 +8,9 @@ TagManager:
   - Ground
   - Object
   - StopZone
+  - KeyButton
+  - SubmitButton
+  - ClearButton
   layers:
   - Default
   - TransparentFX

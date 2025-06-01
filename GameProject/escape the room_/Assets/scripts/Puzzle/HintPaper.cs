@@ -1,45 +1,32 @@
-using System.Collections;
+Ôªøusing System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
 public class HintPaper : MonoBehaviour
 {
+    [Header("UI Elements")]
     public GameObject hintUI;
     public GameObject interactText;
+    public TMP_Text hintTitleText;
+    public TMP_Text hintBodyText;
 
-    public TextAsset hintJson;
+    [Header("Puzzle Data")]
+    public PzleHint4SO hintData;
+    public ScriptableObject hintText;
 
+    [Header("Player Control")]
     public SC_FPSController playerMove;
     public CameraRot cameraRot;
     private MouseCursor playerLook;
 
     private bool isPlayerNearby = false;
 
-    private HintEntry[] hintEntries;
-
+    private float savedRotationX = 0f;
 
     void Start()
     {
         playerLook = FindObjectOfType<MouseCursor>();
-
-        LoadHintData();
-    }
-
-    void LoadHintData()
-    {
-        if (hintJson == null)
-        {
-            Debug.LogError("Hint JSON ∆ƒ¿œ¿Ã «“¥Áµ«¡ˆ æ æ“Ω¿¥œ¥Ÿ.");
-            return;
-        }
-
-        // JSON¿∫ πËø≠∏∏ ¿÷æÓº≠ Unity JsonUtility¥¬ ∞®ΩŒ¡÷¥¬ ≈¨∑°Ω∫∞° « ø‰«‘
-        string wrappedJson = "{\"entries\":" + hintJson.text + "}";
-
-        HintEntryArray data = JsonUtility.FromJson<HintEntryArray>(wrappedJson);
-        hintEntries = data.entries;
-
     }
 
     void Update()
@@ -60,17 +47,25 @@ public class HintPaper : MonoBehaviour
         hintUI.SetActive(true);
         interactText.SetActive(false);
 
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
+        if (cameraRot != null)
+            cameraRot.SaveRotation();
 
-        if (playerLook != null)
-            playerLook.enabled = false;
+        if (playerMove != null)
+            savedRotationX = playerMove.GetRotationX();
 
         if (playerMove != null)
             playerMove.SetCanMove(false);
 
         if (cameraRot != null)
             cameraRot.SetCanLook(false);
+
+        if (playerLook != null)
+            playerLook.enabled = false;
+
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
+        ShowHintText();
     }
 
     public void CloseUI()
@@ -80,14 +75,23 @@ public class HintPaper : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
-        if (playerLook != null)
-            playerLook.enabled = true;
+        if (cameraRot != null)
+        {
+            cameraRot.RestoreRotation();
+            cameraRot.SetCanLook(true);
+        }
 
         if (playerMove != null)
+        {
             playerMove.SetCanMove(true);
+            playerMove.SetRotationX(savedRotationX);
+        }
 
         if (cameraRot != null)
             cameraRot.SetCanLook(true);
+
+        if (playerLook != null)
+            playerLook.enabled = true;
     }
 
     void OnTriggerEnter(Collider other)
@@ -109,18 +113,24 @@ public class HintPaper : MonoBehaviour
         }
     }
 
-    [System.Serializable]
-    public class HintEntry
+    void ShowHintText()
     {
-        public string hintTitle;
-        public string time;
-        public string eventText;
-        public int buttonIndex;
-    }
+        if (hintData == null)
+        {
+            Debug.LogWarning("ÌûåÌä∏ Îç∞Ïù¥ÌÑ∞(ScriptableObject)Í∞Ä Ìï†ÎãπÎêòÏßÄ ÏïäÏïòÏäµÎãàÎã§.");
+            hintTitleText.text = "ÌûåÌä∏ ÏóÜÏùå";
+            hintBodyText.text = "";
+            return;
+        }
 
-    [System.Serializable]
-    public class HintEntryArray
-    {
-        public HintEntry[] entries;
+        hintTitleText.text = hintData.hintTitle;
+
+        string result = "";
+        foreach (string line in hintData.hintLines)
+        {
+            result += line + "\n";
+        }
+
+        hintBodyText.text = result.TrimEnd();
     }
 }

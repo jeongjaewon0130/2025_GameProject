@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ba84747f6f6ac246a7c7514b535f3b5, type: 3}
+  m_Name: Puzzle4Hint
+  m_EditorClassIdentifier: 
+  hintTitle: "\uB2E8\uC11C"
+  hintLines:
+  - "- \uCCAB \uBC88\uC9F8 \uC22B\uC790\uB294 4\uC640 3\uC758 \uCC28\uC774."
+  - "- \uB450 \uBC88\uC9F8 \uC22B\uC790\uB294 \uCCAB \uBC88\uC9F8 \uC22B\uC790\uC758
+    \uB450 \uBC30."
+  - "- \uC138 \uBC88\uC9F8 \uC22B\uC790\uB294 \uCCAB \uBC88\uC9F8 \uC22B\uC790\uC5D0
+    1\uC744 \uB354\uD55C \uAC12."

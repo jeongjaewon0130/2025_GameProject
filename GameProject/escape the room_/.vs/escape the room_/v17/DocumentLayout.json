@@ -1,70 +1,98 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\",
+  "WorkspaceRootPath": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|c:\\users\\hjw\\0518\\gameproject\\escape the room_\\assets\\scripts\\puzzle\\puzzlebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puzzle\\puzzlebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|c:\\users\\hjw\\0601\\gameproject\\escape the room_\\assets\\scripts\\puzzle\\keypadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puzzle\\keypadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\assets\\scripts\\puzzle\\hintpaper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puzzle\\hintpaper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\assets\\scripts\\puzzle\\btnpuzzlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puzzle\\btnpuzzlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\assets\\scripts\\puzzle\\pzledatamang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puzzle\\pzledatamang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\assets\\scripts\\puzzle\\hintdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puzzle\\hintdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\assets\\scripts\\player\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\assets\\scripts\\wordsearchmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wordsearchmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\assets\\scripts\\camera\\camerarot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\assets\\scripts\\camera\\camerarot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera\\camerarot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\assets\\scripts\\script\\sc_fpscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\assets\\scripts\\script\\sc_fpscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\script\\sc_fpscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\assets\\scripts\\gamebootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\assets\\scripts\\camera\\mousecursor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera\\mousecursor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\assets\\scripts\\puzzle\\hintpaper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puzzle\\hintpaper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\assets\\scripts\\puzzle\\hintdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puzzle\\hintdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\assets\\scripts\\puzzle\\hint4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puzzle\\hint4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\assets\\scripts\\puzzle\\hintjsontosoconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puzzle\\hintjsontosoconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\assets\\scripts\\puzzle\\pzlehint4so.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puzzle\\pzlehint4so.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\Pzle4HintSO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\Puzzle\\Pzle4HintSO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\assets\\scripts\\puzzle\\pzledatamang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puzzle\\pzledatamang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\assets\\scripts\\puzzle\\puzzlebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puzzle\\puzzlebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\assets\\scripts\\puzzle\\btnpuzzlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puzzle\\btnpuzzlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\assets\\scripts\\player\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\assets\\scripts\\wordsearchmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wordsearchmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\assets\\scripts\\gamebootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamebootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\assets\\scripts\\puzle1mnger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\assets\\scripts\\puzle1mnger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puzle1mnger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\assets\\scripts\\script\\scaryeventtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\assets\\scripts\\script\\scaryeventtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\script\\scaryeventtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\assets\\scripts\\script\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\assets\\scripts\\script\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\script\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\assets\\scripts\\script\\intract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\assets\\scripts\\script\\intract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\script\\intract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\assets\\scripts\\puzzle\\puzzlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\assets\\scripts\\puzzle\\puzzlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puzzle\\puzzlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\assets\\scripts\\clockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\assets\\scripts\\clockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\clockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\KeyPad\\TriggerPuzzle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:Assets\\scripts\\Puzzle\\KeyPad\\TriggerPuzzle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,51 +102,135 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KeyPadManager.cs",
+              "DocumentMoniker": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\KeyPadManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\KeyPadManager.cs",
+              "ToolTip": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\KeyPadManager.cs",
+              "RelativeToolTip": "Assets\\scripts\\Puzzle\\KeyPadManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:03:38.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TriggerPuzzle.cs",
+              "DocumentMoniker": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\KeyPad\\TriggerPuzzle.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\KeyPad\\TriggerPuzzle.cs",
+              "ToolTip": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\KeyPad\\TriggerPuzzle.cs",
+              "RelativeToolTip": "Assets\\scripts\\Puzzle\\KeyPad\\TriggerPuzzle.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAQwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T08:57:30.052Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "MouseCursor.cs",
+              "DocumentMoniker": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Camera\\MouseCursor.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Camera\\MouseCursor.cs",
+              "ToolTip": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Camera\\MouseCursor.cs",
+              "RelativeToolTip": "Assets\\scripts\\Camera\\MouseCursor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T08:49:57.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Hint4.cs",
+              "DocumentMoniker": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\Hint4.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\Hint4.cs",
+              "ToolTip": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\Hint4.cs",
+              "RelativeToolTip": "Assets\\scripts\\Puzzle\\Hint4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T08:10:08.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HintJsonToSOConverter.cs",
+              "DocumentMoniker": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\HintJsonToSOConverter.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\HintJsonToSOConverter.cs",
+              "ToolTip": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\HintJsonToSOConverter.cs",
+              "RelativeToolTip": "Assets\\scripts\\Puzzle\\HintJsonToSOConverter.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T08:09:13.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PzleHint4SO.cs",
+              "DocumentMoniker": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\PzleHint4SO.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\PzleHint4SO.cs",
+              "ToolTip": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\PzleHint4SO.cs",
+              "RelativeToolTip": "Assets\\scripts\\Puzzle\\PzleHint4SO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T08:06:10.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Pzle4HintSO.cs",
+              "DocumentMoniker": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\Pzle4HintSO.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\Pzle4HintSO.cs",
+              "ToolTip": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\Pzle4HintSO.cs",
+              "RelativeToolTip": "Assets\\scripts\\Puzzle\\Pzle4HintSO.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T08:05:00.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "PzleDataMang.cs",
-              "DocumentMoniker": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\PzleDataMang.cs",
+              "DocumentMoniker": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\PzleDataMang.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\PzleDataMang.cs",
-              "ToolTip": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\PzleDataMang.cs",
+              "ToolTip": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\PzleDataMang.cs",
               "RelativeToolTip": "Assets\\scripts\\Puzzle\\PzleDataMang.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAowA4AAABQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T09:14:18.655Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "HintData.cs",
-              "DocumentMoniker": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\HintData.cs",
+              "DocumentMoniker": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\HintData.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\HintData.cs",
-              "ToolTip": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\HintData.cs",
+              "ToolTip": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\HintData.cs",
               "RelativeToolTip": "Assets\\scripts\\Puzzle\\HintData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T08:59:44.116Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "CameraRot.cs",
-              "DocumentMoniker": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\Camera\\CameraRot.cs",
+              "DocumentMoniker": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Camera\\CameraRot.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Camera\\CameraRot.cs",
-              "ToolTip": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\Camera\\CameraRot.cs",
+              "ToolTip": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Camera\\CameraRot.cs",
               "RelativeToolTip": "Assets\\scripts\\Camera\\CameraRot.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAowA4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAArwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-01T06:11:42.969Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "PlayerMove.cs",
-              "DocumentMoniker": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\Player\\PlayerMove.cs",
+              "DocumentMoniker": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Player\\PlayerMove.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Player\\PlayerMove.cs",
-              "ToolTip": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\Player\\PlayerMove.cs",
+              "ToolTip": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Player\\PlayerMove.cs",
               "RelativeToolTip": "Assets\\scripts\\Player\\PlayerMove.cs",
               "ViewState": "AgIAABEAAAAAAAAAAADgvxsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -126,11 +238,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "GameBootstrap.cs",
-              "DocumentMoniker": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\GameBootstrap.cs",
+              "DocumentMoniker": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\GameBootstrap.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\GameBootstrap.cs",
-              "ToolTip": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\GameBootstrap.cs",
+              "ToolTip": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\GameBootstrap.cs",
               "RelativeToolTip": "Assets\\scripts\\GameBootstrap.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvw0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -138,11 +250,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "Puzle1Mnger.cs",
-              "DocumentMoniker": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\Puzle1Mnger.cs",
+              "DocumentMoniker": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzle1Mnger.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Puzle1Mnger.cs",
-              "ToolTip": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\Puzle1Mnger.cs",
+              "ToolTip": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzle1Mnger.cs",
               "RelativeToolTip": "Assets\\scripts\\Puzle1Mnger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -150,11 +262,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "scaryEventTrigger.cs",
-              "DocumentMoniker": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\Script\\scaryEventTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Script\\scaryEventTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Script\\scaryEventTrigger.cs",
-              "ToolTip": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\Script\\scaryEventTrigger.cs",
+              "ToolTip": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Script\\scaryEventTrigger.cs",
               "RelativeToolTip": "Assets\\scripts\\Script\\scaryEventTrigger.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -162,11 +274,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "door.cs",
-              "DocumentMoniker": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\Script\\door.cs",
+              "DocumentMoniker": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Script\\door.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Script\\door.cs",
-              "ToolTip": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\Script\\door.cs",
+              "ToolTip": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Script\\door.cs",
               "RelativeToolTip": "Assets\\scripts\\Script\\door.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -174,11 +286,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "Intract.cs",
-              "DocumentMoniker": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\Script\\Intract.cs",
+              "DocumentMoniker": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Script\\Intract.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Script\\Intract.cs",
-              "ToolTip": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\Script\\Intract.cs",
+              "ToolTip": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Script\\Intract.cs",
               "RelativeToolTip": "Assets\\scripts\\Script\\Intract.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -186,48 +298,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "SC_FPSController.cs",
-              "DocumentMoniker": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\Script\\SC_FPSController.cs",
+              "DocumentMoniker": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Script\\SC_FPSController.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Script\\SC_FPSController.cs",
-              "ToolTip": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\Script\\SC_FPSController.cs",
+              "ToolTip": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Script\\SC_FPSController.cs",
               "RelativeToolTip": "Assets\\scripts\\Script\\SC_FPSController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAwHQAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAADwvx0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-01T05:07:23.084Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "HintPaper.cs",
-              "DocumentMoniker": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\HintPaper.cs",
+              "DocumentMoniker": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\HintPaper.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\HintPaper.cs",
-              "ToolTip": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\HintPaper.cs",
+              "ToolTip": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\HintPaper.cs",
               "RelativeToolTip": "Assets\\scripts\\Puzzle\\HintPaper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-27T07:47:22.129Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "PuzzleButton.cs",
-              "DocumentMoniker": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\PuzzleButton.cs",
+              "DocumentMoniker": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\PuzzleButton.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\PuzzleButton.cs",
-              "ToolTip": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\PuzzleButton.cs",
+              "ToolTip": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\PuzzleButton.cs",
               "RelativeToolTip": "Assets\\scripts\\Puzzle\\PuzzleButton.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T07:10:55.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T07:10:55.768Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "BtnPuzzleManager.cs",
-              "DocumentMoniker": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\BtnPuzzleManager.cs",
+              "DocumentMoniker": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\BtnPuzzleManager.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\BtnPuzzleManager.cs",
-              "ToolTip": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\BtnPuzzleManager.cs",
+              "ToolTip": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\BtnPuzzleManager.cs",
               "RelativeToolTip": "Assets\\scripts\\Puzzle\\BtnPuzzleManager.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAIwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -235,11 +346,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "WordSearchManager.cs",
-              "DocumentMoniker": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\WordSearchManager.cs",
+              "DocumentMoniker": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\WordSearchManager.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\WordSearchManager.cs",
-              "ToolTip": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\WordSearchManager.cs",
+              "ToolTip": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\WordSearchManager.cs",
               "RelativeToolTip": "Assets\\scripts\\WordSearchManager.cs",
               "ViewState": "AgIAAFwAAAAAAAAAAAAAAGwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -247,11 +358,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "PuzzleManager.cs",
-              "DocumentMoniker": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\PuzzleManager.cs",
+              "DocumentMoniker": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\PuzzleManager.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\PuzzleManager.cs",
-              "ToolTip": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\PuzzleManager.cs",
+              "ToolTip": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\PuzzleManager.cs",
               "RelativeToolTip": "Assets\\scripts\\Puzzle\\PuzzleManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -259,11 +370,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "ClockController.cs",
-              "DocumentMoniker": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\ClockController.cs",
+              "DocumentMoniker": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\ClockController.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\ClockController.cs",
-              "ToolTip": "C:\\Users\\HJW\\0518\\GameProject\\escape the room_\\Assets\\scripts\\ClockController.cs",
+              "ToolTip": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\ClockController.cs",
               "RelativeToolTip": "Assets\\scripts\\ClockController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
