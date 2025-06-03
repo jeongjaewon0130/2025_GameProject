@@ -37,7 +37,7 @@ ModelImporter:
       takeName: Take 001
       internalID: 1827226128182048838
       firstFrame: 0
-      lastFrame: 235
+      lastFrame: 100
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -533,18 +533,18 @@ ModelImporter:
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Doctor
+    - name: group1
       parentName: Doctor(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: doctor
-      parentName: Doctor
+      parentName: group1
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: eye
-      parentName: Doctor
+      parentName: group1
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
@@ -708,26 +708,6 @@ ModelImporter:
       position: {x: -8.771634e-10, y: 0.8136779, z: -0.000000009438436}
       rotation: {x: 0.03417113, y: 0.015730016, z: 0.030992476, w: 0.9988115}
       scale: {x: 1, y: 1, z: 1}
-    - name: Doctor_LeftHandThumb1
-      parentName: Doctor_LeftHand
-      position: {x: 0.0695431, y: 0.131326, z: 0.038424652}
-      rotation: {x: 0.081825204, y: 0.019753182, z: -0.3302563, w: 0.9401304}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Doctor_LeftHandThumb2
-      parentName: Doctor_LeftHandThumb1
-      position: {x: 0.009919813, y: 0.12239079, z: -0.0000000020551545}
-      rotation: {x: 0.0022399724, y: 0.021172136, z: 0.02450554, w: 0.999473}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Doctor_LeftHandThumb3
-      parentName: Doctor_LeftHandThumb2
-      position: {x: 0.01657441, y: 0.1268698, z: 0.000000002161096}
-      rotation: {x: -0.0001351499, y: 0.0031015656, z: -0.17262973, w: 0.9849819}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Doctor_LeftHandThumb4
-      parentName: Doctor_LeftHandThumb3
-      position: {x: -0.026494233, y: 0.12011405, z: 0.0000000031549554}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
     - name: Doctor_LeftHandPinky1
       parentName: Doctor_LeftHand
       position: {x: -0.08463396, y: 0.37661636, z: -0.017330345}
@@ -748,24 +728,24 @@ ModelImporter:
       position: {x: 0.00093062234, y: 0.0490868, z: -2.2070394e-10}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Doctor_LeftHandRing1
+    - name: Doctor_LeftHandThumb1
       parentName: Doctor_LeftHand
-      position: {x: -0.04019915, y: 0.4343236, z: -0.018021133}
-      rotation: {x: -0.032078832, y: 0.068809316, z: -0.043355152, w: 0.99617094}
+      position: {x: 0.0695431, y: 0.131326, z: 0.038424652}
+      rotation: {x: 0.081825204, y: 0.019753182, z: -0.3302563, w: 0.9401304}
       scale: {x: 1, y: 1, z: 1}
-    - name: Doctor_LeftHandRing2
-      parentName: Doctor_LeftHandRing1
-      position: {x: -0.0015819336, y: 0.0823103, z: -0.0000000010481037}
-      rotation: {x: 0.0000007353402, y: -0.0003001474, z: 0.015974741, w: 0.9998724}
+    - name: Doctor_LeftHandThumb2
+      parentName: Doctor_LeftHandThumb1
+      position: {x: 0.009919813, y: 0.12239079, z: -0.0000000020551545}
+      rotation: {x: 0.0022399724, y: 0.021172136, z: 0.02450554, w: 0.999473}
       scale: {x: 1, y: 1, z: 1}
-    - name: Doctor_LeftHandRing3
-      parentName: Doctor_LeftHandRing2
-      position: {x: 0.001053692, y: 0.08276985, z: 1.5278231e-10}
-      rotation: {x: -0.0000017558475, y: -0.00016816646, z: -0.0025399455, w: 0.9999968}
+    - name: Doctor_LeftHandThumb3
+      parentName: Doctor_LeftHandThumb2
+      position: {x: 0.01657441, y: 0.1268698, z: 0.000000002161096}
+      rotation: {x: -0.0001351499, y: 0.0031015656, z: -0.17262973, w: 0.9849819}
       scale: {x: 1, y: 1, z: 1}
-    - name: Doctor_LeftHandRing4
-      parentName: Doctor_LeftHandRing3
-      position: {x: 0.00052823866, y: 0.06898921, z: 8.073229e-10}
+    - name: Doctor_LeftHandThumb4
+      parentName: Doctor_LeftHandThumb3
+      position: {x: -0.026494233, y: 0.12011405, z: 0.0000000031549554}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Doctor_LeftHandMiddle1
@@ -786,6 +766,26 @@ ModelImporter:
     - name: Doctor_LeftHandMiddle4
       parentName: Doctor_LeftHandMiddle3
       position: {x: -0.0018315377, y: 0.07364007, z: -0.0000000034329855}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftHandRing1
+      parentName: Doctor_LeftHand
+      position: {x: -0.04019915, y: 0.4343236, z: -0.018021133}
+      rotation: {x: -0.032078832, y: 0.068809316, z: -0.043355152, w: 0.99617094}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftHandRing2
+      parentName: Doctor_LeftHandRing1
+      position: {x: -0.0015819336, y: 0.0823103, z: -0.0000000010481037}
+      rotation: {x: 0.0000007353402, y: -0.0003001474, z: 0.015974741, w: 0.9998724}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftHandRing3
+      parentName: Doctor_LeftHandRing2
+      position: {x: 0.001053692, y: 0.08276985, z: 1.5278231e-10}
+      rotation: {x: -0.0000017558475, y: -0.00016816646, z: -0.0025399455, w: 0.9999968}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Doctor_LeftHandRing4
+      parentName: Doctor_LeftHandRing3
+      position: {x: 0.00052823866, y: 0.06898921, z: 8.073229e-10}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Doctor_LeftHandIndex1
@@ -885,7 +885,7 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 67e5dd479544aed4c969d937b5851126, type: 3}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: fc439aa159fedc34b88c14225d2609a6, type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1

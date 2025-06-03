@@ -11,6 +11,7 @@ TagManager:
   - KeyButton
   - SubmitButton
   - ClearButton
+  - CutScene
   layers:
   - Default
   - TransparentFX
