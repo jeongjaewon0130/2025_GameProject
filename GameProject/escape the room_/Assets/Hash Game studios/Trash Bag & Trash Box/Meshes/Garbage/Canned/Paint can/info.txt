@@ -1,0 +1,8 @@
+Paint can:
+Polygon count LOD0: 84
+Polygon count LOD1: 18
+
+Paint can crumple:
+Polygon count LOD0: 204
+Polygon count LOD1: 72
+Polygon count LOD2: 30

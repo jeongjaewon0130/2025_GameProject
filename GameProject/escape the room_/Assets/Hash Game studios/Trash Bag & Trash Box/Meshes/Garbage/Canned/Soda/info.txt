@@ -1,0 +1,4 @@
+Soda can 1:
+Polygon count LOD0: 100
+Polygon count LOD1: 60
+Polygon count LOD1: 20

@@ -1,0 +1,8 @@
+Pizza box:
+Polygon count LOD0: 16
+Polygon count LOD1: 12
+
+Pizza box crumple:
+Polygon count LOD0: 72
+Polygon count LOD1: 48
+Polygon count LOD2: 12

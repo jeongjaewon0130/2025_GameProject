@@ -13,7 +13,7 @@ public class KeyPadManager : MonoBehaviour
     public GameObject keypadUI;
     public GameObject interactPrompt;
     private string currentInput = "";
-    public string correctCode = "122";
+    public string correctCode = "764";
     private bool isPlayerNear = false;
     private MouseCursor playerLook;
     public static KeyPadManager Instance;
@@ -36,7 +36,6 @@ public class KeyPadManager : MonoBehaviour
 
     void Start()
     {
-        correctCode = "122";
         playerLook = FindObjectOfType<MouseCursor>();
     }
 

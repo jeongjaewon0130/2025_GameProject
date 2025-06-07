@@ -1,0 +1,15 @@
+Brick 1:
+Polygon count LOD0: 44
+Polygon count LOD1: 8
+
+Brocken brick 1:
+Polygon count LOD0: 32
+Polygon count LOD1: 8
+
+Brick 2:
+Polygon count LOD0: 40
+Polygon count LOD1: 8
+
+Brocken brick 2:
+Polygon count LOD0: 32
+Polygon count LOD1: 12

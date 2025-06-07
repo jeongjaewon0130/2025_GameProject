@@ -1,0 +1,6 @@
+Gallon 20L:
+Polygon count: 76
+
+Gallon 2:
+Polygon count LOD0: 102
+Polygon count LOD0: 68

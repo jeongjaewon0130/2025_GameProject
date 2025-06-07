@@ -1,0 +1,8 @@
+Wood board 1:
+Polygon count LOD0: 18
+Polygon count LOD1: 8
+
+Wood board 2:
+Polygon count LOD0: 48
+Polygon count LOD1: 28
+Polygon count LOD2: 8

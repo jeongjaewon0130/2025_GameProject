@@ -1,0 +1,15 @@
+Bottle 1:
+Polygon count LOD0: 168
+Polygon count LOD1: 84
+Polygon count LOD2: 18
+
+Bottle 2:
+Polygon count LOD0: 150
+Polygon count LOD1: 80
+Polygon count LOD2: 32
+Polygon count LOD3: 26
+
+Bottle 2 crumple:
+Polygon count LOD0: 250
+Polygon count LOD1: 88
+Polygon count LOD2: 68

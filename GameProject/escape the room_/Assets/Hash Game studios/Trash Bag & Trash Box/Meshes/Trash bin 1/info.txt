@@ -1,0 +1,3 @@
+Trash bin 1:
+Polygon count LOD0: 1024
+Polygon count LOD1: 200

@@ -1,0 +1,15 @@
+Canned food 1 crumple:
+Polygon count LOD0: 80
+Polygon count LOD1: 27
+
+Canned food 1:
+Polygon count LOD0: 48
+Polygon count LOD1: 20
+
+Canned food 2 crumple:
+Polygon count: 80
+Polygon count LOD1: 23
+
+Canned food 2:
+Polygon count: 48
+Polygon count LOD1: 20

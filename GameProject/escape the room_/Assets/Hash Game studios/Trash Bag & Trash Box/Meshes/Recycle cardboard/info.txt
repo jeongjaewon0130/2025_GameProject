@@ -1,0 +1,11 @@
+Crumpled cardboard Closed:
+Polygon count: 42
+
+Closed recycle cardboard:
+Polygon count: 8
+
+Opened recycle cardboard:
+Polygon count: 60
+
+Recycle cardboard folded:
+Polygon count: 16
