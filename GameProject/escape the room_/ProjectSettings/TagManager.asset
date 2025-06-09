@@ -3,15 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - ground
-  - Ground
-  - Object
-  - StopZone
-  - KeyButton
-  - SubmitButton
-  - ClearButton
-  - CutScene
+  tags: []
   layers:
   - Default
   - TransparentFX
