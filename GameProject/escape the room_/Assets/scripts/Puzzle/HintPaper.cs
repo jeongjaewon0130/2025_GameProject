@@ -1,7 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System.IO;
 
 public class HintPaper : MonoBehaviour
 {
@@ -10,10 +10,6 @@ public class HintPaper : MonoBehaviour
     public GameObject interactText;
     public TMP_Text hintTitleText;
     public TMP_Text hintBodyText;
-
-    [Header("Puzzle Data")]
-    public PzleHint4SO hintData;
-    public ScriptableObject hintText;
 
     [Header("Player Control")]
     public SC_FPSController playerMove;
@@ -24,9 +20,28 @@ public class HintPaper : MonoBehaviour
 
     private float savedRotationX = 0f;
 
+    [Header("Hint JSON File")]
+    public string jsonFileName = "HintData.json";  // Resources 폴더에 넣고 경로는 파일명만
+
+    private HintJsonData hintData;
+
     void Start()
     {
         playerLook = FindObjectOfType<MouseCursor>();
+        LoadHintFromJSON();
+    }
+
+    void LoadHintFromJSON()
+    {
+        // Resources 폴더에서 텍스트 에셋으로 JSON 읽기
+        TextAsset jsonText = Resources.Load<TextAsset>(Path.GetFileNameWithoutExtension(jsonFileName));
+        if (jsonText == null)
+        {
+            Debug.LogError($"JSON 파일을 Resources에서 찾을 수 없습니다: {jsonFileName}");
+            return;
+        }
+
+        hintData = JsonUtility.FromJson<HintJsonData>(jsonText.text);
     }
 
     void Update()
@@ -117,7 +132,7 @@ public class HintPaper : MonoBehaviour
     {
         if (hintData == null)
         {
-            Debug.LogWarning("힌트 데이터(ScriptableObject)가 할당되지 않았습니다.");
+            Debug.LogWarning("힌트 데이터가 로드되지 않았습니다.");
             hintTitleText.text = "힌트 없음";
             hintBodyText.text = "";
             return;

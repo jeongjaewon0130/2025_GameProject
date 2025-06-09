@@ -108,6 +108,7 @@
     <Compile Include="Assets\scripts\Talk\InteractableObject.cs" />
     <Compile Include="Assets\ItemCrafting\Scripts\SC_Slot.cs" />
     <Compile Include="Assets\scripts\Player\ObjectInteraction.cs" />
+    <Compile Include="Assets\scripts\Puzzle\HintJsonData.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\scripts\Script\FootWalkSound.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />

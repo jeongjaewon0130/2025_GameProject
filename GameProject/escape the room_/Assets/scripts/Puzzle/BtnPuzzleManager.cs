@@ -8,7 +8,7 @@ public class BtnPuzzleManager : MonoBehaviour
     public HintData hintData;
 
     private List<int> correctOrder = new List<int>();
-    private int currentOrder = 0;
+    private List<PuzzleButton> pressedButtons = new List<PuzzleButton>();
 
     void Start()
     {
@@ -33,35 +33,50 @@ public class BtnPuzzleManager : MonoBehaviour
 
     public void ButtonPressed(PuzzleButton button)
     {
-        // 이미 눌린 버튼이면 무시 (사운드 중복 방지)
+        // 이미 눌린 버튼이면 무시
         if (button.IsActivated()) return;
 
-        if (button.buttonOrder == correctOrder[currentOrder])
-        {
-            button.Activate();
-            Debug.Log("올바른 버튼을 눌렀습니다: " + button.buttonOrder);
-            currentOrder++;
+        // 무조건 라이트 켜기 (Activate)
+        button.Activate();
+        pressedButtons.Add(button);
 
-            if (currentOrder >= correctOrder.Count)
+        Debug.Log("버튼 눌림: " + button.buttonOrder);
+
+        if (pressedButtons.Count == correctOrder.Count)
+        {
+            // 모든 버튼 눌림 -> 정답 체크
+            bool isCorrect = true;
+            for (int i = 0; i < correctOrder.Count; i++)
             {
-                Debug.Log("퍼즐 완료! 문이 열립니다.");
+                if (pressedButtons[i].buttonOrder != correctOrder[i])
+                {
+                    isCorrect = false;
+                    break;
+                }
+            }
+
+            if (isCorrect)
+            {
+                Debug.Log("퍼즐 성공! 문이 열립니다.");
                 if (doorToOpen != null)
                     doorToOpen.GetComponent<Animator>().SetTrigger("Open");
+                // 버튼 라이트는 켜진 상태 유지
             }
-        }
-        else
-        {
-            Debug.Log("틀렸습니다! 퍼즐이 초기화됩니다.");
-            ResetPuzzle();
+            else
+            {
+                Debug.Log("퍼즐 실패! 초기화합니다.");
+                ResetPuzzle();
+            }
         }
     }
 
     private void ResetPuzzle()
     {
-        currentOrder = 0;
+        pressedButtons.Clear();
+
         foreach (var button in buttons)
         {
-            button.ResetButton(); // ResetButton 안에서 사운드+라이트 처리
+            button.ResetButton();
         }
     }
 }
