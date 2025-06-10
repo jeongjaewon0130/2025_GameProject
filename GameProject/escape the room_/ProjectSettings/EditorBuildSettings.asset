@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/LoadScene.unity
     guid: 654e887e352c30341a93eb965ed0a680
   - enabled: 1
+    path: Assets/Scenes/New Folder/Scenes/next1.unity
+    guid: 86eb0f3048e94fa49b3036ef8310a5b1
+  - enabled: 1
     path: Assets/Scenes/Scenes 1/Scene 1-1.unity
     guid: 37ace08d434f8e7438fe44bff10ed6b6
   - enabled: 1
