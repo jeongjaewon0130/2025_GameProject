@@ -15,5 +15,6 @@ public class KeyPadButton : MonoBehaviour
         }
 
         KeyPadManager.Instance.AddDigit(digit);
+        KeyPadManager1.Instance.AddDigit(digit);
     }
 }

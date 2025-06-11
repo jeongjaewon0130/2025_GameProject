@@ -90,14 +90,7 @@ public class SC_FPSController : MonoBehaviour
         float movementDirectionY = moveDirection.y;
         moveDirection = (forward * curSpeedX) + (right * curSpeedY);
 
-        if (Input.GetButton("Jump") && canMove && characterController.isGrounded)
-        {
-            moveDirection.y = jumpSpeed;
-        }
-        else
-        {
-            moveDirection.y = movementDirectionY;
-        }
+        moveDirection.y = movementDirectionY;
 
         if (!characterController.isGrounded)
         {
@@ -106,15 +99,9 @@ public class SC_FPSController : MonoBehaviour
 
         characterController.Move(moveDirection * Time.deltaTime);
 
-        // 카메라 회전
-        if (canMove)
-        {
-            rotationX += -Input.GetAxis("Mouse Y") * lookSpeed;
-            rotationX = Mathf.Clamp(rotationX, -lookXLimit, lookXLimit);
-            playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
-            transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
-        }
+        // → 여기에 있던 카메라 회전 코드는 삭제
     }
+
 
     // ✅ 추가 함수: 카메라/리스너 중복 정리
     void CleanupExtraListenersAndCameras()

@@ -13,11 +13,12 @@ public class KeyPadManager : MonoBehaviour
     public GameObject keypadUI;
     public GameObject interactPrompt;
     private string currentInput = "";
-    public string correctCode = "764";
+    public string correctCode = "112222";
     private bool isPlayerNear = false;
     private MouseCursor playerLook;
     public static KeyPadManager Instance;
     public GameObject playerArm;
+
 
     void Awake()
     {

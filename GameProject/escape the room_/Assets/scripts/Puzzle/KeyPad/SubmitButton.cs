@@ -10,5 +10,6 @@ public class SubmitButton : MonoBehaviour
             Animator.SetTrigger("Press");
         }
         KeyPadManager.Instance.Submit();
+        KeyPadManager1.Instance.Submit();
     }
 }

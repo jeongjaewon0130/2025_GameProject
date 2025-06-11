@@ -7,7 +7,7 @@ public class FadeManager : MonoBehaviour
 {
     public Image fadeImage;
     public float fadeDuration = 1f;
-    [SerializeField] private string sceneToLoad = "Scene 1-1";
+    [SerializeField] private string sceneToLoad = "next1";
 
     void Awake()
     {

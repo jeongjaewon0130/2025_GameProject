@@ -10,5 +10,6 @@ public class ClearButton : MonoBehaviour
             Animator.SetTrigger("Press");
         }
         KeyPadManager.Instance.ClearInput();
+        KeyPadManager1.Instance.ClearInput();
     }
 }

@@ -154,6 +154,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Script\door.cs" />
     <Compile Include="Assets\scripts\Player\PlayerMovem.cs" />
+    <Compile Include="Assets\scripts\Puzzle\KeyPad\KeyPadManager1.cs" />
     <Compile Include="Assets\scripts\Puzzle\Lock\DialButtonHandler.cs" />
     <Compile Include="Assets\scripts\Script\SceneTrans.cs" />
     <Compile Include="Assets\scripts\Script\DoorSound.cs" />

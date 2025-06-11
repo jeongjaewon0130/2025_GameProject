@@ -113,10 +113,12 @@ public class HintPaper : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Debug.Log("새 힌트 오브젝트: 플레이어가 근처에 들어옴");
             isPlayerNearby = true;
             interactText.SetActive(true);
         }
     }
+
 
     void OnTriggerExit(Collider other)
     {
@@ -124,17 +126,18 @@ public class HintPaper : MonoBehaviour
         {
             isPlayerNearby = false;
             interactText.SetActive(false);
-            CloseUI();
+            if (hintUI.activeSelf)
+            {
+                CloseUI();
+            }
         }
     }
 
     void ShowHintText()
     {
-        if (hintData == null)
+        if (hintData == null || hintData.hintLines == null || hintData.hintLines.Count == 0)
         {
-            Debug.LogWarning("힌트 데이터가 로드되지 않았습니다.");
-            hintTitleText.text = "힌트 없음";
-            hintBodyText.text = "";
+            Debug.LogWarning("힌트 데이터가 없거나 비어 있습니다. 기존 텍스트 유지.");
             return;
         }
 
@@ -148,4 +151,5 @@ public class HintPaper : MonoBehaviour
 
         hintBodyText.text = result.TrimEnd();
     }
+
 }
