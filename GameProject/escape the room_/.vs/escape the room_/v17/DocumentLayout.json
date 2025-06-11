@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\2025_GameProject\\GameProject\\escape the room_\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|d:\\2025_gameproject\\gameproject\\escape the room_\\assets\\settings\\scripts\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\settings\\scripts\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|D:\\2025_GameProject\\GameProject\\escape the room_\\assets\\scripts\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|d:\\2025_gameproject\\gameproject\\escape the room_\\assets\\scripts\\playerlook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerlook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|D:\\2025_GameProject\\GameProject\\escape the room_\\assets\\scripts\\puzzle\\keypad\\submitbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -187,24 +191,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MenuController.cs",
-              "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\Settings\\Scripts\\MenuController.cs",
-              "RelativeDocumentMoniker": "Assets\\Settings\\Scripts\\MenuController.cs",
-              "ToolTip": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\Settings\\Scripts\\MenuController.cs",
-              "RelativeToolTip": "Assets\\Settings\\Scripts\\MenuController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAIwBsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "PlayerLook.cs",
+              "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\PlayerLook.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\PlayerLook.cs",
+              "ToolTip": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\PlayerLook.cs",
+              "RelativeToolTip": "Assets\\scripts\\PlayerLook.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T18:42:31.701Z",
+              "WhenOpened": "2025-06-11T19:40:36.48Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\MenuController.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\MenuController.cs",
+              "ToolTip": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\MenuController.cs",
+              "RelativeToolTip": "Assets\\scripts\\MenuController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvxwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T19:04:44.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ClearButton.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\KeyPad\\ClearButton.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\KeyPad\\ClearButton.cs",
@@ -216,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SubmitButton.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\KeyPad\\SubmitButton.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\KeyPad\\SubmitButton.cs",
@@ -228,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "KeyPadButton.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\KeyPad\\KeyPadButton.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\KeyPad\\KeyPadButton.cs",
@@ -240,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "FadeManager.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Outside of game\\FadeManager.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Outside of game\\FadeManager.cs",
@@ -252,7 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "FootWalkSound.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\Script\\FootWalkSound.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\FootWalkSound.cs",
@@ -264,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "SceneTrans.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Script\\SceneTrans.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Script\\SceneTrans.cs",
@@ -276,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "InventoryUIController.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\Inventory\\InventoryUIController.cs",
               "RelativeDocumentMoniker": "Assets\\Inventory\\InventoryUIController.cs",
@@ -288,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "door.cs",
               "DocumentMoniker": "C:\\Users\\ejyon\\Documents\\fork\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Script\\door.cs",
               "ToolTip": "C:\\Users\\ejyon\\Documents\\fork\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Script\\door.cs",
@@ -297,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "nextLevel.cs",
               "DocumentMoniker": "C:\\Users\\ejyon\\Documents\\fork\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Script\\nextLevel.cs",
               "ToolTip": "C:\\Users\\ejyon\\Documents\\fork\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Script\\nextLevel.cs",
@@ -307,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "SC_FPSController.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Script\\SC_FPSController.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Script\\SC_FPSController.cs",
@@ -319,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "KeyPadManager.cs",
               "DocumentMoniker": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\KeyPadManager.cs",
               "ToolTip": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\KeyPadManager.cs",
@@ -328,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "KeyPadManager.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\KeyPad\\KeyPadManager.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\KeyPad\\KeyPadManager.cs",
@@ -340,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ExampleSceneChange.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\Inventory\\ExampleSceneChange.cs",
               "RelativeDocumentMoniker": "Assets\\Inventory\\ExampleSceneChange.cs",
@@ -352,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "InventoryManager.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\Inventory\\InventoryManager.cs",
               "RelativeDocumentMoniker": "Assets\\Inventory\\InventoryManager.cs",
@@ -364,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "DebugUpdater.cs",
               "DocumentMoniker": "C:\\Users\\HJW\\0611\\GameProject\\escape the room_\\Library\\PackageCache\\com.unity.render-pipelines.core@14.0.11\\Runtime\\Debugging\\DebugUpdater.cs",
               "ToolTip": "C:\\Users\\HJW\\0611\\GameProject\\escape the room_\\Library\\PackageCache\\com.unity.render-pipelines.core@14.0.11\\Runtime\\Debugging\\DebugUpdater.cs",
@@ -374,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "HintPaper.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\HintPaper.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\HintPaper.cs",
@@ -386,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "Hint4.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\Hint4.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\Hint4.cs",
@@ -398,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "MouseCursor.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Camera\\MouseCursor.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Camera\\MouseCursor.cs",
@@ -410,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "TriggerPuzzle.cs",
               "DocumentMoniker": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\KeyPad\\TriggerPuzzle.cs",
               "ToolTip": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\KeyPad\\TriggerPuzzle.cs",
@@ -420,7 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "SkullHint.json",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\TextMesh Pro\\Resources\\SkullHint.json",
               "RelativeDocumentMoniker": "Assets\\TextMesh Pro\\Resources\\SkullHint.json",
@@ -431,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "HintJsonData.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\HintJsonData.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\HintJsonData.cs",
@@ -443,7 +460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "HintJsonToSOConverter.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\HintJsonToSOConverter.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\HintJsonToSOConverter.cs",
@@ -455,7 +472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "PzleHint4SO.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\PzleHint4SO.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\PzleHint4SO.cs",
@@ -467,7 +484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "Pzle4HintSO.cs",
               "DocumentMoniker": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\Pzle4HintSO.cs",
               "ToolTip": "C:\\Users\\HJW\\0601\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\Pzle4HintSO.cs",
@@ -476,7 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "PzleDataMang.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\PzleDataMang.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\PzleDataMang.cs",
@@ -488,7 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "HintData.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\HintData.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\HintData.cs",
@@ -500,7 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "CameraRot.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Camera\\CameraRot.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Camera\\CameraRot.cs",
@@ -512,7 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "PlayerMove.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Player\\PlayerMove.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Player\\PlayerMove.cs",
@@ -524,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "BtnPuzzleManager.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\BtnPuzzleManager.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\BtnPuzzleManager.cs",
@@ -536,7 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "DoorDontroller.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\DoorDontroller.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\DoorDontroller.cs",
@@ -548,7 +565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "CutScene.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\Character\\Scripts\\CutScene.cs",
               "RelativeDocumentMoniker": "Assets\\Character\\Scripts\\CutScene.cs",
@@ -560,7 +577,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "PlayerInteraction.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\PlayerInteraction.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\PlayerInteraction.cs",
@@ -572,7 +589,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "PuzzleButton.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\PuzzleButton.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\PuzzleButton.cs",
@@ -584,7 +601,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "DoctorRotation.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\Character\\Scripts\\DoctorRotation.cs",
               "RelativeDocumentMoniker": "Assets\\Character\\Scripts\\DoctorRotation.cs",
@@ -596,7 +613,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "SC_ItemCrafting.cs",
               "DocumentMoniker": "C:\\Users\\HJW\\0609\\GameProject\\escape the room_\\Assets\\ItemCrafting\\Scripts\\SC_ItemCrafting.cs",
               "ToolTip": "C:\\Users\\HJW\\0609\\GameProject\\escape the room_\\Assets\\ItemCrafting\\Scripts\\SC_ItemCrafting.cs",
@@ -606,7 +623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "SC_Slot.cs",
               "DocumentMoniker": "C:\\Users\\HJW\\0609\\GameProject\\escape the room_\\Assets\\ItemCrafting\\Scripts\\SC_Slot.cs",
               "ToolTip": "C:\\Users\\HJW\\0609\\GameProject\\escape the room_\\Assets\\ItemCrafting\\Scripts\\SC_Slot.cs",
@@ -616,7 +633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "KeypadSound.cs",
               "DocumentMoniker": "C:\\Users\\HJW\\0607\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\KeyPad\\KeypadSound.cs",
               "ToolTip": "C:\\Users\\HJW\\0607\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\KeyPad\\KeypadSound.cs",
@@ -626,7 +643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "ClickSound.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\KeyPad\\ClickSound.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\KeyPad\\ClickSound.cs",
@@ -638,7 +655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "DoorSound.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Script\\DoorSound.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Script\\DoorSound.cs",
@@ -650,7 +667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "GameBootstrap.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\GameBootstrap.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\GameBootstrap.cs",
@@ -662,7 +679,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "Puzle1Mnger.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Puzle1Mnger.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Puzle1Mnger.cs",
@@ -674,7 +691,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "scaryEventTrigger.cs",
               "DocumentMoniker": "C:\\Users\\ejyon\\Documents\\fork\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Script\\scaryEventTrigger.cs",
               "ToolTip": "C:\\Users\\ejyon\\Documents\\fork\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Script\\scaryEventTrigger.cs",
@@ -684,7 +701,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "Intract.cs",
               "DocumentMoniker": "C:\\Users\\ejyon\\Documents\\fork\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Script\\Intract.cs",
               "ToolTip": "C:\\Users\\ejyon\\Documents\\fork\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Script\\Intract.cs",
@@ -694,7 +711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "WordSearchManager.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\WordSearchManager.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\WordSearchManager.cs",
@@ -706,7 +723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "PuzzleManager.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\PuzzleManager.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\PuzzleManager.cs",
@@ -718,7 +735,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "ClockController.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\ClockController.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\ClockController.cs",
