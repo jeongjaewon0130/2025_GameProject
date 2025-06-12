@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 967f9221c0f5a60458cabd4cd3b1a9af, type: 3}
+  m_Name: Puzzle5Hint
+  m_EditorClassIdentifier: 
+  entries:
+  - hintTitle: "\uC4F0\uB808\uAE30\uD1B5"
+    time: "12\uC2DC"
+    eventText: "\uC810\uC2EC\uC2DC\uAC04"
+    buttonIndex: 0
+  - hintTitle: "\uC4F0\uB808\uAE30\uD1B5"
+    time: "1\uC2DC"
+    eventText: "\uC5F0\uAD6C \uC2DC\uC791"
+    buttonIndex: 1
+  - hintTitle: "\uC4F0\uB808\uAE30\uD1B5"
+    time: "3\uC2DC"
+    eventText: "\uAC04\uC2DD \uC2DC\uAC04"
+    buttonIndex: 2
+  - hintTitle: "\uC4F0\uB808\uAE30\uD1B5"
+    time: "5\uC2DC"
+    eventText: "\uD1F4\uADFC \uC2DC\uAC04"
+    buttonIndex: 3
+  - hintTitle: "\uC4F0\uB808\uAE30\uD1B5"
+    time: "6\uC2DC"
+    eventText: "\uC9D1\uC5D0 \uB3C4\uCC29"
+    buttonIndex: 4
