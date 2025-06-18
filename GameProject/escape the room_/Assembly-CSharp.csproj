@@ -142,6 +142,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\scripts\PlayerLook.cs" />
     <Compile Include="Assets\scripts\Puzzle\KeyPad\ClickSound.cs" />
+    <Compile Include="Assets\scripts\Puzzle\End\NextSceneTrigger.cs" />
     <Compile Include="Assets\scripts\Puzzle\InteractionUIManager.cs" />
     <Compile Include="Assets\scripts\Puzzle\Lock\DialUIController.cs" />
     <Compile Include="Assets\Script\interact.cs" />
