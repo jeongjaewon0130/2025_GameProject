@@ -79,6 +79,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\scripts\Outside of game\LoadingBar.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+    <Compile Include="Assets\Settings\GameStartup.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\Character\Scripts\CutScene.cs" />
@@ -146,6 +147,7 @@
     <Compile Include="Assets\scripts\Puzzle\InteractionUIManager.cs" />
     <Compile Include="Assets\scripts\Puzzle\Lock\DialUIController.cs" />
     <Compile Include="Assets\Script\interact.cs" />
+    <Compile Include="Assets\Settings\MenuPersist.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\Script\FootWalkSound.cs" />
     <Compile Include="Assets\scripts\GameBootstrap.cs" />

@@ -6,6 +6,20 @@ public class MenuManager : MonoBehaviour
     public GameObject settingsPanel;  // 설정 슬라이더 패널
     public KeyCode toggleKey = KeyCode.Escape;
 
+
+    void Start()
+    {
+        // MenuManager도 중복 방지
+        if (FindObjectsOfType<MenuManager>().Length > 1)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            DontDestroyOnLoad(gameObject);
+        }
+    }
+
     void Update()
     {
         if (Input.GetKeyDown(toggleKey))
