@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "D:\\2025_GameProject\\GameProject\\escape the room_\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|d:\\2025_gameproject\\gameproject\\escape the room_\\assets\\scripts\\globalsettingsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\globalsettingsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|d:\\2025_gameproject\\gameproject\\escape the room_\\assets\\scripts\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|d:\\2025_gameproject\\gameproject\\escape the room_\\assets\\scripts\\puzzle\\end\\nextscenetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|D:\\2025_GameProject\\GameProject\\escape the room_\\assets\\scripts\\persistentui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\persistentui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|D:\\2025_GameProject\\GameProject\\escape the room_\\assets\\scripts\\puzzle\\end\\nextscenetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3252A3EA-C342-C6FB-C2B3-F5A82F79558E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puzzle\\end\\nextscenetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -39,19 +47,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GlobalSettingsUI.cs",
+              "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\GlobalSettingsUI.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\GlobalSettingsUI.cs",
+              "ToolTip": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\GlobalSettingsUI.cs",
+              "RelativeToolTip": "Assets\\scripts\\GlobalSettingsUI.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T15:59:34.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PersistentUI.cs",
+              "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\PersistentUI.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\PersistentUI.cs",
+              "ToolTip": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\PersistentUI.cs",
+              "RelativeToolTip": "Assets\\scripts\\PersistentUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T15:26:54.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MenuController.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\MenuController.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\MenuController.cs",
               "ToolTip": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\MenuController.cs",
               "RelativeToolTip": "Assets\\scripts\\MenuController.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAwwE0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAYwGUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-18T15:13:05.434Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "NextSceneTrigger.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\End\\NextSceneTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\End\\NextSceneTrigger.cs",
@@ -59,12 +92,11 @@
               "RelativeToolTip": "Assets\\scripts\\Puzzle\\End\\NextSceneTrigger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T12:36:38.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T12:36:38.683Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "BtnPuzzleManager.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\BtnPuzzleManager.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\BtnPuzzleManager.cs",
@@ -76,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "HintData.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\HintData.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\HintData.cs",
@@ -88,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "PlayerInteraction.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\PlayerInteraction.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\PlayerInteraction.cs",
@@ -100,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "PuzzleButton.cs",
               "DocumentMoniker": "D:\\2025_GameProject\\GameProject\\escape the room_\\Assets\\scripts\\Puzzle\\PuzzleButton.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Puzzle\\PuzzleButton.cs",
