@@ -116,6 +116,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\Script\beginningCutscene.cs" />
+    <Compile Include="Assets\Settings\SettingsManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\Keypad\Scripts\Keypad.cs" />
     <Compile Include="Assets\scripts\Puzzle\HintJsonToSOConverter.cs" />
@@ -165,6 +166,7 @@
     <Compile Include="Assets\scripts\Puzzle\HintData.cs" />
     <Compile Include="Assets\scripts\Puzzle\BtnPuzzleManager.cs" />
     <Compile Include="Assets\Inventory\InventoryManager.cs" />
+    <Compile Include="Assets\Settings\MenuManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
   </ItemGroup>
   <ItemGroup>
