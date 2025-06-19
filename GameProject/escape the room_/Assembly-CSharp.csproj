@@ -78,6 +78,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\scripts\Outside of game\LoadingBar.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+    <Compile Include="Assets\Settings\GameStartup.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\Character\Scripts\CutScene.cs" />
@@ -115,6 +116,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\Script\beginningCutscene.cs" />
+    <Compile Include="Assets\Settings\SettingsManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\Keypad\Scripts\Keypad.cs" />
     <Compile Include="Assets\scripts\Puzzle\HintJsonToSOConverter.cs" />
@@ -145,6 +147,7 @@
     <Compile Include="Assets\scripts\Puzzle\InteractionUIManager.cs" />
     <Compile Include="Assets\scripts\Puzzle\Lock\DialUIController.cs" />
     <Compile Include="Assets\Script\interact.cs" />
+    <Compile Include="Assets\Settings\MenuPersist.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\Script\FootWalkSound.cs" />
     <Compile Include="Assets\scripts\GameBootstrap.cs" />
@@ -165,6 +168,7 @@
     <Compile Include="Assets\scripts\Puzzle\HintData.cs" />
     <Compile Include="Assets\scripts\Puzzle\BtnPuzzleManager.cs" />
     <Compile Include="Assets\Inventory\InventoryManager.cs" />
+    <Compile Include="Assets\Settings\MenuManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
   </ItemGroup>
   <ItemGroup>
